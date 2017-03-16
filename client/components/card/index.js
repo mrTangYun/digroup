@@ -15,7 +15,15 @@ export class Card extends Component{
   				show || this.setState({
   					show: true
   				}, () => {
-  					console.log(entries);
+					let oImg = new Image();
+					oImg.src = this.props.imgUrl;
+					this.refs.img.src = this.props.imgUrl;
+					oImg.onload = () => {
+						this.setState({
+							imgLoaded: true
+						});
+						oImg = null;
+					};
   					// 停止观察
 					io.unobserve(this.refs.card);
 					// 关闭观察器
@@ -28,32 +36,28 @@ export class Card extends Component{
 	}	
 	render () {
 		const props = this.props;
-		const { show } = this.state;
+		const { show, imgLoaded } = this.state;
 		return (<div
-		  	className={CSS.CardOuter}
-		  	style={props.style}
+		    className={CSS.column + " col-md-4 col-xs-12 " + (show ? 'flipInX3' : 'flipContainer')}
 		  	ref='card'
-		  	>
-		    <div className={"column col-6 col-xs-12 " + (show ? 'flipInX3' : 'flipContainer')}>
+		    >
 		    	<div className="card">
 		    		<div className="card-header">
 		    			<p className="card-meta">{props.meta}</p>
 		    			<p className="card-title">{props.title}</p>
 		    		</div>
-		    		<div className="card-image image-loading-container featured loading">
+		    		<div className={"card-image image-loading-container featured " + (imgLoaded ? '' : 'loading')} >
 		    			<div className="img-overlay"></div>
 		    			<img
-		    			  className="img-responsive featured-image"
-		    			  src={props.imgUrl}
-		    			  style={{opacity: 1}} />
+		    			  ref='img'
+		    			  className="img-responsive featured-image" />
 		    		</div>
 		    		<img
 		    		  className="client-logo"
 		    		  src={props.logoUrl}
 		    		  style={{opacity: 1}} />
 		    	</div>
-		    </div>
-		  </div>);
+		    </div>);
 	}
 };
 
