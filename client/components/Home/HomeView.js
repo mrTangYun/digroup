@@ -8,8 +8,13 @@ export class HomeView extends Component {
 	}
 	render() {
 		const array = [
-			'https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/narita_thumb.jpg',
-			'https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/GUMPLAY_partyweb_161213_1280.jpg',
+			'/images/works/1/thumb.jpg',
+			'/images/works/2/thumb.jpg',
+			'/images/works/3/thumb.jpg',
+			'/images/works/4/thumb.jpg',
+			'/images/works/5/thumb.jpg',
+			'/images/works/6/thumb.jpg',
+			/*'https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/GUMPLAY_partyweb_161213_1280.jpg',
 			'https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2013/10/yaeno-sakura_thumb.jpg',
 			'https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2013/10/eco-dra_thumb.jpg',
 			'https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2017/02/Pweb_E.jpg',
@@ -59,11 +64,10 @@ export class HomeView extends Component {
 			'https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2014/04/inner-music_thumb.jpg',
 			'https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2014/03/news-japan_thumb.jpg',
 			'https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/12/mind-wall_thumb.jpg',
-			'https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2014/03/drive-go-round_thumb.jpg',
+			'https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2014/03/drive-go-round_thumb.jpg',*/
 		];
 		return (
 		  <div>
-		    <h4>Welcome!</h4>
 		    <div className='container'>
 			    <div className='row'>
 			    {
@@ -73,9 +77,10 @@ export class HomeView extends Component {
 					    	style={{
 					    		width: '50%'
 					    	}}
+					    	delay={index / 10}
 					    	show={true}
-					    	meta="SUNSTAR"
-					    	title="G•U•M PLAY"
+					    	meta="WEB DESIGN"
+					    	title="AI"
 							imgUrl={item}
 							logoUrl="https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg"
 					    />);

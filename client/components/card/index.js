@@ -39,12 +39,15 @@ export class Card extends Component{
 		const { show, imgLoaded } = this.state;
 		return (<div
 		    className={CSS.column + " col-md-4 col-xs-12 " + (show ? 'flipInX3' : 'flipContainer')}
+		    style={{
+		    	animationDelay: (props.delay || 0)  + 's'
+		    }}
 		  	ref='card'
 		    >
 		    	<div className="card">
 		    		<div className="card-header">
-		    			<p className="card-meta">{props.meta}</p>
-		    			<p className="card-title">{props.title}</p>
+		    			<p className={CSS["card-meta"]}>{props.meta}</p>
+		    			<p className={CSS["card-title"]}>{props.title}</p>
 		    		</div>
 		    		<div className={"card-image image-loading-container featured " + (imgLoaded ? '' : 'loading')} >
 		    			<div className="img-overlay"></div>
