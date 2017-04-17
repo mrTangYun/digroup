@@ -1,0 +1,40 @@
+.recruit{
+	text-align: left;
+	.title{
+		color: #008ac2;
+		text-transform: uppercase;
+	}
+	.banner{
+		img{
+			display: block;
+		}
+	}
+	.h4{
+		color: #231815;
+	}
+	.h4desc{
+		color: #3e3a39;
+		a{
+			color: #3e3a39;
+			text-decoration: underline;
+		}
+	}
+	.item{
+		margin-top: 2em;
+		.title{
+			color: #0088c0;
+			border-bottom: 1px solid #bfbfbf;
+		}
+		.content{
+			padding: 1em 0;
+			.left{
+				color: #89898a;
+				text-transform: uppercase;
+			}
+			.right{
+				color: #000;
+				line-height: 1.5em;
+			}
+		}
+	}
+}

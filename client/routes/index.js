@@ -7,6 +7,7 @@ import ElapseRoute from './elapse';
 import RouteRoute from './route';
 import PageNotFound from './pageNotFound';
 import Redirect from './redirect';
+import Recruit from './recruit';
 
 /*  Note: Instead of using JSX, we recommend using react-router
     PlainRoute objects to build route definitions.   */
@@ -16,6 +17,7 @@ export const createRoutes = (store) => ({
   component: CoreLayout,
   indexRoute: Home,
   childRoutes: [
+    Recruit(),
     CounterRoute(store),
     ZenRoute(store),
     ElapseRoute(store),
