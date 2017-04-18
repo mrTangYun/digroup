@@ -72,7 +72,7 @@ export class HomeView extends Component {
 					<div>{data.address}</div>
 					<div>TEL: {data.tel}</div>
 					<div>FAX: {data.fax}</div>
-					<div>{data.email}</div>
+					<div><a href='mailto:{data.email}'>{data.email}</a></div>
 				</Col>
 			</Grid>);
 	}
