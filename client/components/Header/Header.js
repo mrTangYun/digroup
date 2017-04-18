@@ -23,7 +23,7 @@ export const Header = () => (
           <Link to='/recruit' activeClassName={CSS['route--active']}>
             RECRUIT
           </Link>
-          <Link to='/CONTACT' activeClassName={CSS['route--active']}>
+          <Link to='/contact' activeClassName={CSS['route--active']}>
             CONTACT
           </Link>
         </div>

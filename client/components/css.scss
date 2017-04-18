@@ -1,10 +1,54 @@
+.pageTitle{
+	color: #008ac2;
+	text-transform: uppercase;
+	margin-bottom: 2.5em;
+}
+
+.page-contact{
+	text-align: left;
+	.map-container{
+		position: relative;
+		.map-outer{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			z-index: 1;
+			.map{
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+		}
+		&:after {
+		    content: "\A";
+		    padding-bottom: 41.04%;
+		    position: relative;
+		    height: 0;
+		    display: block;
+		    object-fit: cover;
+		    background: red;
+		}
+	}
+	.content{
+		margin: 3.125em 0 8.3125em;
+		.left{
+			padding: 0;
+			color: #89898a;
+			font-size: 1.125em;
+			line-height: 2em;
+		}
+		.right{
+			color: #000;
+			line-height: 2.25em;
+		}
+	}
+}
+
 .recruit{
 	text-align: left;
-	.pageTitle{
-		color: #008ac2;
-		text-transform: uppercase;
-		margin-bottom: 2.5em;
-	}
 	.banner{
 		img{
 			display: block;
@@ -50,5 +94,4 @@
 			}
 		}
 	}
-	
 }

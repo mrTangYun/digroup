@@ -18,6 +18,14 @@
     <![endif]-->
   	<link rel="stylesheet" type="text/css" href="./common.css">
   	<script src='./intersection-observer.js'></script>
+    <script type="text/javascript">
+      if (window.location.protocol === 'https:'){
+        document.write("<script type='text/javascript' src='https://api.map.baidu.com/api?v=2.0&ak=t4e3cNQCyjc0WSkLIxxzKaH77uZTr2Qh&s=1'><\/script>");
+      }
+      else{
+        document.write("<script type='text/javascript' src='http://api.map.baidu.com/api?v=2.0&ak=t4e3cNQCyjc0WSkLIxxzKaH77uZTr2Qh'><\/script>");
+      }
+    </script>
 </head>
 <body>
   <div id="root"></div>
