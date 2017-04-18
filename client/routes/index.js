@@ -8,6 +8,7 @@ import RouteRoute from './route';
 import PageNotFound from './pageNotFound';
 import Redirect from './redirect';
 import Recruit from './recruit';
+import Contact from './contact';
 
 /*  Note: Instead of using JSX, we recommend using react-router
     PlainRoute objects to build route definitions.   */
@@ -18,6 +19,7 @@ export const createRoutes = (store) => ({
   indexRoute: Home,
   childRoutes: [
     Recruit(),
+    Contact(),
     CounterRoute(store),
     ZenRoute(store),
     ElapseRoute(store),

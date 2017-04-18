@@ -1,0 +1,54 @@
+.recruit{
+	text-align: left;
+	.pageTitle{
+		color: #008ac2;
+		text-transform: uppercase;
+		margin-bottom: 2.5em;
+	}
+	.banner{
+		img{
+			display: block;
+		}
+	}
+	.my-contains{
+		padding: 0 1.8em;
+		.h4{
+			color: #231815;
+			font-size: 2em;
+			margin: 1.5em 0 1em;
+		}
+		.h4desc{
+			margin-bottom: 7.5em;
+			font-size: 1.5em;
+			color: #3e3a39;
+			a{
+				color: #3e3a39;
+				text-decoration: underline;
+			}
+		}
+		.item{
+			margin-top: 2.8em;
+			.title{
+				color: #0088c0;
+				padding-bottom: 1em;
+				border-bottom: 1px solid #bfbfbf;
+				margin-bottom: 1em;
+				font-size: 1.25em;
+			}
+			.content{
+				margin: 0 0 3em ;
+				.left{
+					color: #89898a;
+					text-transform: uppercase;
+					line-height: 2.25em;
+					padding: 0;
+				}
+				.right{
+					color: #000;
+					line-height: 2.25em;
+				}
+			}
+		}
+	}
+	
+}
