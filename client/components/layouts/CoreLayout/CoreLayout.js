@@ -10,7 +10,7 @@ export const CoreLayout = ({ location, children }) => {
 	  <div className='container'>
 	    <Header />
 	    <QueueAnim
-	    	duration={500}
+	    	duration={1500}
 	    	type={['right', 'left']}
 	    	ease={['easeOutQuart', 'easeInOutQuart']}
 	    	>
