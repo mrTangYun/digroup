@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import DuckImage from './assets/Duck.jpg';
-import './HomeView.scss';
+import CSS from '../css.scss';
 import Card from '../Card/index';
 export class HomeView extends Component {
-	componentDidMount() {
-		
-	}
 	render() {
 		const array = [
 			'/images/works/1/thumb.jpg',
@@ -67,7 +63,8 @@ export class HomeView extends Component {
 			'https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2014/03/drive-go-round_thumb.jpg',*/
 		];
 		return (
-		  <div>
+		  <div className={CSS['page-works']}>
+		  	<div className={CSS["pageTitle"]}>SELECTED WORKS</div>
 		    <div className='container'>
 			    <div className='row'>
 			    {

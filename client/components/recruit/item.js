@@ -13,7 +13,7 @@ export const Item = (props) => (
     }
     {
     	props.competencyRequirements && <Row className={CSS["content"]}>
-		<Col md={2} className={CSS["left"]}>competency requirements</Col>
+		<Col md={2} className={CSS["left"]} dangerouslySetInnerHTML={{__html: 'competency<br />requirements'}}/>
 		<Col md={10} className={CSS["right"]} dangerouslySetInnerHTML={{__html: props.competencyRequirements}} />
     </Row>
     }

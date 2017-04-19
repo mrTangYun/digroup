@@ -1,7 +1,72 @@
+.header{
+	margin-top: 2.75em;
+	margin-bottom: 5.18em;
+	.header-grid{
+		.header-left{
+			padding: 0;
+		}
+		.header-right{
+			display: flex;
+			justify-content: flex-end;
+			padding: 0;
+			.header-navs{
+				a{
+					font-size: .875em;
+					padding: 0 1em;
+					color: #b5b5b6;
+					text-decoration: none;
+					&::hover{
+						text-decoration: none;
+					}
+					&.route--active{
+						color: #008ac2;
+						text-decoration: none;
+					}
+
+				}
+			}
+			.header-wchatAndWeibo{
+				font-size: .625em;
+				div{
+					float: left;
+				}
+				&:after{
+					content: ' ';
+					font-size: 0;
+					clear: both;
+					display: block;
+				}
+			}
+			.header-laug{
+				font-size: .75em;
+			}
+		}
+	}
+}
+
 .pageTitle{
 	color: #008ac2;
 	text-transform: uppercase;
 	margin-bottom: 2.5em;
+}
+
+.page-works{
+	text-align: left;
+	.column{
+		padding: 0;
+		&:hover {
+
+		}
+		.card-meta{
+			color: #fff;
+		}
+		.card-title{
+			color: #fff;
+			font-size: 1.5em;
+			
+		}
+	}
+	
 }
 
 .page-contact{

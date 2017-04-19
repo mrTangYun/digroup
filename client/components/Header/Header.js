@@ -1,11 +1,11 @@
 import React from 'react';
 import { IndexLink, Link } from 'react-router';
-import CSS from './Header.scss';
+import CSS from '../css.scss';
 import { Grid, Row, Col } from 'react-bootstrap';
 import logo from './logo.svg';
 
 export const Header = () => (
-  <Grid>
+  <Grid fluid  className={CSS["header"]}>
     <Row className={CSS["header-grid"]}>
       <Col md={2} className={CSS["header-left"]}>
         <IndexLink to='/'>
