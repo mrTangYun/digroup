@@ -3,16 +3,18 @@ import { IndexLink, Link } from 'react-router';
 import CSS from '../css.scss';
 import { Grid, Row, Col } from 'react-bootstrap';
 import logo from './logo.svg';
+import QueueAnim from 'rc-queue-anim';
 
 export const Header = () => (
   <Grid fluid  className={CSS["header"]}>
     <Row className={CSS["header-grid"]}>
-      <Col md={2} className={CSS["header-left"]}>
-        <IndexLink to='/'>
-          <img src={logo} alt=""/>
-        </IndexLink>
-      </Col>
-      <Col md={10} className={CSS["header-right"]}>
+      <QueueAnim duration={1500} type={'alpha'}>
+        <Col key='logo' md={2} className={CSS["header-left"]}>
+          <IndexLink to='/'>
+            <img src={logo} alt=""/>
+          </IndexLink>
+        </Col>
+        <Col key='header-right' md={10} className={CSS["header-right"]}>
         <div className={CSS["header-navs"]}>
           <Link to='/works' activeClassName={CSS['route--active']}>
             WORKS
@@ -34,6 +36,7 @@ export const Header = () => (
         </div>
         <div className={CSS["header-laug"]}>中文</div>
       </Col>
+      </QueueAnim>
     </Row>
   </Grid>
 );

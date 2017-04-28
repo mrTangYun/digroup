@@ -10,6 +10,15 @@ export const CoreLayout = ({ location, children }) => {
 	  <div className='container'>
 	    <Header />
 	    <QueueAnim
+	    	duration={1500}
+	    	delay={500}
+	    	type='top'
+	    >
+		    <div key='childrenOuter'>
+				{children || <Home />}
+		    </div>
+	    </QueueAnim>
+	    {/*<QueueAnim
 	    	duration={500}
 	    	ease={['easeOutQuart', 'easeInOutQuart']}
 	    	delay={[500, 0]}
@@ -19,13 +28,13 @@ export const CoreLayout = ({ location, children }) => {
 	     //      ]}
 	    	>
 	    	{React.cloneElement(children || <Home />, { key })}
-		</QueueAnim>
+		</QueueAnim>*/}
 	  </div>
 	)
 };
 
 CoreLayout.propTypes = {
-  children: React.PropTypes.element.isRequired
+  children: React.PropTypes.element
 };
 
 export default CoreLayout;

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CSS from '../css.scss';
 import logo from './logo.png';
 import { Grid, Row, Col } from 'react-bootstrap';
+import PageTitle from '../PageTitle';
 
 export class HomeView extends Component {
 	
@@ -80,8 +81,7 @@ export class HomeView extends Component {
 	render() {
 		return (
 		  <div className={CSS["page-contact"]}>
-		    <div className={CSS["pageTitle"]}>FOR NEW BUSINESS, CAREER AND MEDIA INQUIRIES, CONTACT US.</div>
-		    
+		  	<PageTitle title='FOR NEW BUSINESS, CAREER AND MEDIA INQUIRIES, CONTACT US.' />
 		    <div className={CSS["map-container"]}>
 				<div className={CSS["map-outer"]}>
 					<div className={CSS["map"]} ref={e => {this.addressBeijing = e}} />

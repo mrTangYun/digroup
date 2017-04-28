@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Item from './item';
+import QueueAnim from 'rc-queue-anim';
+import PageTitle from '../PageTitle';
 import CSS from '../css.scss';
 
 const jobs = [
@@ -48,11 +50,19 @@ export class HomeView extends Component {
 	render() {
 		return (
 		  <div className={CSS["recruit"]}>
-		    <div className={CSS["pageTitle"]}>JOIN US TO EXPERIMENT & MAKE.</div>
-		    <div className={CSS["banner"]}>
-				<img src="/images/recruit/banner.jpg" width="100%" />
-		    </div>
-		    <div className={CSS["my-contains"]}>
+		    <PageTitle title='JOIN US TO EXPERIMENT & MAKE.' />
+		    <QueueAnim
+	  			key={"bannerAnimate"}
+	  			animConfig={[
+		            { opacity: [1, 0], translateY: [0, 20] },
+		            { opacity: [1, 0], translateY: [0, -20] }
+		        ]}
+	  		>
+			    <div className={CSS["banner"]} key={"banner"}>
+					<img src="/images/recruit/banner.jpg" width="100%" />
+			    </div>
+		    </QueueAnim>
+		    <div className={CSS["my-contains"]}  key={"my-contains"}>
 		    	<div className={CSS["h4"]}>在DEEPLY IMPRESSIVE，我们正在招聘以下人员。</div>
 			    <div className={CSS["h4desc"]}>简历请投放至：<a href="mailto:hr@digroup.com.cn" >hr@digroup.com.cn</a></div>
 				{
@@ -61,7 +71,6 @@ export class HomeView extends Component {
 					})
 				}
 		    </div>
-		    
 		  </div>
 		);
 	}
