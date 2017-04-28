@@ -10,9 +10,13 @@ export const CoreLayout = ({ location, children }) => {
 	  <div className='container'>
 	    <Header />
 	    <QueueAnim
-	    	duration={1500}
-	    	type={['right', 'left']}
+	    	duration={500}
 	    	ease={['easeOutQuart', 'easeInOutQuart']}
+	    	delay={[500, 0]}
+	    	// animConfig={[
+	     //        { opacity: [1, 0], translateY: [0, 50] },
+	     //        { opacity: [1, 0], translateY: [0, -50] }
+	     //      ]}
 	    	>
 	    	{React.cloneElement(children || <Home />, { key })}
 		</QueueAnim>

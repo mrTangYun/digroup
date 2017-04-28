@@ -1,10 +1,6 @@
 // We only need to import the modules necessary for initial render
 import CoreLayout from '../components/layouts/CoreLayout/CoreLayout';
 import Home from './works';
-import CounterRoute from './counter';
-import ZenRoute from './zen';
-import ElapseRoute from './elapse';
-import RouteRoute from './route';
 import PageNotFound from './pageNotFound';
 import Redirect from './redirect';
 import Recruit from './recruit';
@@ -21,10 +17,6 @@ export const createRoutes = (store) => ({
     Home(),
     Recruit(),
     Contact(),
-    CounterRoute(store),
-    ZenRoute(store),
-    ElapseRoute(store),
-    RouteRoute(store),
     PageNotFound(),
     Redirect
   ]
