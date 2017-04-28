@@ -53,24 +53,33 @@ export class HomeView extends Component {
 		    <PageTitle title='JOIN US TO EXPERIMENT & MAKE.' />
 		    <QueueAnim
 	  			key={"bannerAnimate"}
-	  			animConfig={[
-		            { opacity: [1, 0], translateY: [0, 20] },
-		            { opacity: [1, 0], translateY: [0, -20] }
-		        ]}
+	  			delay={200}
+	  			duration={1500}
+	  			animConfig={{
+	  				opacity: [1, 0],
+	  				translateY: [0, -30]
+	  			}}
 	  		>
 			    <div className={CSS["banner"]} key={"banner"}>
 					<img src="/images/recruit/banner.jpg" width="100%" />
 			    </div>
 		    </QueueAnim>
-		    <div className={CSS["my-contains"]}  key={"my-contains"}>
-		    	<div className={CSS["h4"]}>在DEEPLY IMPRESSIVE，我们正在招聘以下人员。</div>
-			    <div className={CSS["h4desc"]}>简历请投放至：<a href="mailto:hr@digroup.com.cn" >hr@digroup.com.cn</a></div>
-				{
-					jobs.map((item, index) => {
-						return (<Item key={index} {...item} />)
-					})
-				}
-		    </div>
+		    <QueueAnim
+	  			key={"my-contains"}
+	  			delay={400}
+	  			duration={1500}
+	  			type='top'
+	  		>
+			    <div className={CSS["my-contains"]}  key={"my-contains"}>
+			    	<div className={CSS["h4"]}>在DEEPLY IMPRESSIVE，我们正在招聘以下人员。</div>
+				    <div className={CSS["h4desc"]}>简历请投放至：<a href="mailto:hr@digroup.com.cn" >hr@digroup.com.cn</a></div>
+					{
+						jobs.map((item, index) => {
+							return (<Item key={index} {...item} />)
+						})
+					}
+			    </div>
+		    </QueueAnim>
 		  </div>
 		);
 	}

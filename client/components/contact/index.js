@@ -3,6 +3,7 @@ import CSS from '../css.scss';
 import logo from './logo.png';
 import { Grid, Row, Col } from 'react-bootstrap';
 import PageTitle from '../PageTitle';
+import QueueAnim from 'rc-queue-anim';
 
 export class HomeView extends Component {
 	
@@ -30,6 +31,7 @@ export class HomeView extends Component {
 				email: 'boshang@digroup.com.cn'
 			}
 		};
+		this.init = this.init.bind(this);
 	}
 
 	addMarker(point, index, map){  // 创建图标对象   
@@ -61,9 +63,7 @@ export class HomeView extends Component {
 	}
 
 	componentDidMount() {
-		const addressData = this.addressData;
-		this.createMap(addressData.beijing, this.addressBeijing);
-		this.createMap(addressData.shanghai, this.addressShanghai);
+		this.init();
 	}
 
 	renderInfo = (data) => {
@@ -78,22 +78,29 @@ export class HomeView extends Component {
 			</Grid>);
 	}
 
+	init () {
+		const addressData = this.addressData;
+		this.createMap(addressData.beijing, this.addressBeijing);
+		this.createMap(addressData.shanghai, this.addressShanghai);
+	}
+
 	render() {
 		return (
 		  <div className={CSS["page-contact"]}>
 		  	<PageTitle title='FOR NEW BUSINESS, CAREER AND MEDIA INQUIRIES, CONTACT US.' />
-		    <div className={CSS["map-container"]}>
+		  	<div key={'map-container'} className={CSS["map-container"]}>
 				<div className={CSS["map-outer"]}>
 					<div className={CSS["map"]} ref={e => {this.addressBeijing = e}} />
 				</div>
 		    </div>
-		    { this.renderInfo(this.addressData.beijing) }
-		    <div className={CSS["map-container"]}>
+		    <div key={'addressData.beijing'}>{ this.renderInfo(this.addressData.beijing) }</div>
+		    <div key={'map-container.shanghai'} className={CSS["map-container"]}>
 				<div className={CSS["map-outer"]}>
 					<div className={CSS["map"]} ref={e => {this.addressShanghai = e}} />
 				</div>
 		    </div>
-		    { this.renderInfo(this.addressData.shanghai) }
+		    <div key={'addressData.shanghai'}>{ this.renderInfo(this.addressData.shanghai) }</div>
+	    
 		  </div>
 		);
 	}
