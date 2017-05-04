@@ -24,7 +24,7 @@ export class HomeView extends Component {
 					    	style={{
 					    		width: '50%'
 					    	}}
-					    	delay={index / 10}
+					    	delay={index / 3}
 					    	show={true}
 					    	meta="WEB DESIGN"
 					    	title="AI"
