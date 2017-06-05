@@ -5,6 +5,7 @@ import PageNotFound from './pageNotFound';
 import Redirect from './redirect';
 import Recruit from './recruit';
 import Contact from './contact';
+import About from './about';
 
 /*  Note: Instead of using JSX, we recommend using react-router
     PlainRoute objects to build route definitions.   */
@@ -17,6 +18,7 @@ export const createRoutes = (store) => ({
     Home(),
     Recruit(),
     Contact(),
+    About(),
     PageNotFound(),
     Redirect
   ]
