@@ -25,7 +25,7 @@ export class HomeView extends Component {
               dangerouslySetInnerHTML={{ __html: info.content }} />
           }
           {
-            info.bigImages.length > 0 && info.bigImages.map(item => <div
+            info.bigImages && info.bigImages.length > 0 && info.bigImages.map(item => <div
               key={item}
               className={CSS['bigImages-item']}>
               <img src={item} width='100%' />
