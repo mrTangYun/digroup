@@ -165,13 +165,31 @@
 				}
 			}
 		}
+    .about-page{
+      .h4{
+        color: #828283;
+        text-align: center;
+        font-size: 2em;
+        margin: 2.5em 0 2em;
+      }
+      .about-desc{
+        font-size: 1.25em;
+        color: #3e3a39;
+        line-height: 1.85em;
+      }
+      .services{
+        .services-row{
+          div{
+            padding: 1em;
+            .content{
+              color: #3e3a39;
+              background: #f8f8f8;
+              text-align: center;
+              font-weight: bolder;
+            }
+          }
+        }
+      }
+    }
 	}
 }
-
-.about-page{
-  .h4{
-
-  }
-}
-
-
