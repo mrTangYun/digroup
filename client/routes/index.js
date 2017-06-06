@@ -1,6 +1,6 @@
 // We only need to import the modules necessary for initial render
 import CoreLayout from '../components/layouts/CoreLayout/CoreLayout';
-import Home from './works';
+import Home, { WorkItem } from './works';
 import PageNotFound from './pageNotFound';
 import Redirect from './redirect';
 import Recruit from './recruit';
@@ -16,6 +16,7 @@ export const createRoutes = (store) => ({
   indexRoute: Home,
   childRoutes: [
     Home(),
+    WorkItem(),
     Recruit(),
     Contact(),
     About(),

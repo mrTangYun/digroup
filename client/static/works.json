@@ -1,0 +1,69 @@
+[
+  {
+    "url": "olly",
+    "title": "olly",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/1/thumb.jpg",
+    "info": {
+    }
+  },
+  {
+    "url": "lemax",
+    "title": "LeMax",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/2/thumb.jpg",
+    "info": {
+      "headImg": "/images/works/2/headImg.jpg",
+      "title": "超级乐视—乐视的“超级家族”",
+      "content": "为了推广自身旗下丰富的电子产品，乐视公司打造了一个“超级家族”的概念。如何让这个概念能够更容易的被用户接受？我们将生活中的“家庭”通过戏剧化的创意形式，包装成为乐视的“超级家族”，在充满爱的故事情节中，完美穿插融合了乐视耳机、手机、电视等电子设备，通过源于生活的夸张与幽默，将乐视家族的全线产品进行了巧妙的展示。每一个情节都是对产品特点最巧妙地展示，让观众对乐视产品的尖端与联结性有着身临其境般的感受。",
+      "bigImages": [
+        "/images/works/2/1-02.jpg",
+        "/images/works/2/3-02.jpg",
+        "/images/works/2/4-02.jpg"
+      ],
+      "mobileImages": []
+    }
+  },
+  {
+    "url": "olly",
+    "title": "olly",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/3/thumb.jpg",
+    "info": {
+
+    }
+  },
+  {
+    "url": "olly",
+    "title": "olly",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/4/thumb.jpg",
+    "info": {
+
+    }
+  },
+  {
+    "url": "olly",
+    "title": "olly",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/5/thumb.jpg",
+    "info": {
+
+    }
+  },
+  {
+    "url": "olly",
+    "title": "olly",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/6/thumb.jpg",
+    "info": {
+
+    }
+  }
+]
