@@ -47,23 +47,44 @@
     }
   },
   {
-    "url": "olly",
-    "title": "olly",
+    "url": "bentley_mother_s_day",
+    "title": "Bentley",
     "meta": "WEB DESIGN",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/5/thumb.jpg",
     "info": {
-
+      "headImg": "/images/works/5/headImg.jpg",
+      "title": "宾利—过有温度的母亲节",
+      "content": "时至母亲节之日，以“全手工打造”名闻世界的宾利，希望能从自身“制造”的角度出发，通过“母亲手的温度”唤起用户对母亲最温馨的回忆，发起一次向母亲传递爱的温度的活动。为此，我们特别制作了一款“指尖传暖”的H5。 H5紧抓“手”作为两者间的共通点，通过母爱使人心中产生的情结作为情感沟通，向受众传达宾利以“手工专注打造匠心产品”的理念。同时，以向母亲传达爱作为介质，推动用户的主动分享行为，扩大有效声量，借助“朋友圈”的群落属性，形成一定范围内的多次有效传播。",
+      "bigImages": [],
+      "mobileImages": [
+        "/images/works/5/mobile-1.png",
+        "/images/works/5/mobile-2.png",
+        "/images/works/5/mobile-3.png",
+        "/images/works/5/mobile-4.png",
+        "/images/works/5/mobile-5.png"
+      ]
     }
   },
   {
-    "url": "olly",
-    "title": "olly",
+    "url": "lenovo_a8",
+    "title": "lenovo",
     "meta": "WEB DESIGN",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/6/thumb.jpg",
     "info": {
-
+      "headImg": "/images/works/6/headImg.png",
+      "title": "联想Lenovo—进击的A8",
+      "content": "联想公司于2014年推出一款被誉为“黄金斗士”的A8手机，在其上市初期，为了能进一步抢占市场，扩大传播范围，我们从产品受众出发，精心制作了一个鬼畜风H5——《进击的A8》。《进击的A8》凭借着独特的风格脱颖而出，无论是鬼畜的画风、social的语言，还是有内涵的隐喻，都是一次全新尝试。在当下选择制作一支“出跳”的H5，目的在于能够与“90后”这样的年轻群体进行有效连接，使其对品牌沟通信息产生认同感，且更易产生话题性，便于在目标人群中产生主动分享，形成多次传播，将影响范围扩展至更广。",
+      "bigImages": [],
+      "mobileImages": [
+        "/images/works/6/mobile-1.png",
+        "/images/works/6/mobile-2.png",
+        "/images/works/6/mobile-3.png",
+        "/images/works/6/mobile-4.png",
+        "/images/works/6/mobile-5.png",
+        "/images/works/6/mobile-6.png"
+      ]
     }
   }
 ]

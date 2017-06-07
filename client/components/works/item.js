@@ -3,6 +3,8 @@ import CSS from '../css.scss';
 import Card from '../Card/index';
 import PageTitle from '../PageTitle';
 import Data from '../../static/works.json';
+import { Grid, Row, Col } from 'react-bootstrap';
+import Img from '../imageTag/';
 
 export class HomeView extends Component {
   render () {
@@ -31,7 +33,17 @@ export class HomeView extends Component {
               <img src={item} width='100%' />
             </div>)
           }
-
+          <Grid fluid>
+	          <Row className={CSS["services-row"]}>
+	          {
+	            info.mobileImages && info.mobileImages.length > 0 && info.mobileImages.map(item => <Col xs={6} sm={4}
+	              key={item}
+	              className={CSS['bigImages-item']}>
+	              <Img src={item} width='100%' />
+	            </Col>)
+	          }
+	          </Row>
+	      </Grid>
 
         </div>
       </div>
