@@ -23,7 +23,12 @@
         "/images/works/2/3-02.jpg",
         "/images/works/2/4-02.jpg"
       ],
-      "mobileImages": []
+      "mobileImages": [],
+      "movies": [
+        {
+          "mp4": "http://res.tco-manchina.com.cn/job_LeMax1_Mobile_TVC.mp4"
+        }
+      ]
     }
   },
   {
