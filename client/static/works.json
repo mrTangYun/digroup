@@ -237,6 +237,28 @@
     }
   },
   {
+    "url": "bentley",
+    "title": "Bentley",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/bentley/thumb.png",
+    "info": {
+      "headImg": "/images/works/bentley/headImg.png",
+      "title": "宾利—专属宾利，生而唯一",
+      "content": "宾利汽车是国际公认的超豪华汽车，是极致奢华与超凡性能的结合,而其之所以能超越其它汽车成为“超豪华”品牌，融入情感追求的“私人定制”才是精髓。因此，我们和宾利合作制作了相关H5，来引导消费者更加深入理解宾利品牌的专属定制服务。 H5中运用“私人车库”这种特殊的视觉元素，highlight宾利汽车的“专属”感，结合真实“定制”系统，让客户从“选购一辆已有的宾利”，变成“依照自己的喜好，打造出专属于我的宾利”。为宾利品牌对目标用户进行有效传播",
+      "bigImages": [
+      ],
+      "mobileImages": [
+        "/images/works/bentley/S1.png",
+        "/images/works/bentley/S2.png",
+        "/images/works/bentley/S3.png",
+        "/images/works/bentley/S4.png",
+        "/images/works/bentley/S5.png",
+        "/images/works/bentley/S6.png"
+      ]
+    }
+  },
+  {
     "url": "benz-price",
     "title": "Benz",
     "meta": "WEB DESIGN",
@@ -279,6 +301,44 @@
         {
           "mp4": "http://res.tco-manchina.com.cn/job_%E7%9C%81%E9%92%B1%EF%BC%8C%E4%B9%9F%E8%83%BD%E8%BF%99%E4%B9%88fun%EF%BC%81.mov"
         }
+      ]
+    }
+  },
+  {
+    "url": "purina",
+    "title": "Purina",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/purina/thumb.png",
+    "info": {
+      "headImg": "/images/works/purina/headImg.png",
+      "title": "帮助它，宠优与你同行——至爱宠物，至情呵护",
+      "content": "宠优发起“帮助它，宠优与你同行”年度主题campaign，通过搭建campaignsite、线下路演、公益活动、微电影等形式唤起社会对流浪动物的关爱，达到提升宠优品牌认知度及品牌美誉度的目标。其中微电影《流浪心事》获得北京微电影节最佳公益电影奖项。",
+      "bigImages": [
+        "/images/works/purina/b-1.png",
+        "/images/works/purina/b-2.png"
+      ],
+      "mobileImages": [
+        "/images/works/purina/S1.png",
+        "/images/works/purina/S2.png"
+      ]
+    }
+  },
+  {
+    "url": "vena-rosa",
+    "title": "Rosa",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/vena-rosa/thumb.jpg",
+    "info": {
+      "headImg": "/images/works/vena-rosa/headImg.png",
+      "title": "Vena Rosa—在你爱的世界醒来",
+      "content": "Vena Rosa唯萨是优曼家纺旗下的年轻品牌，致力于为消费者提供现代、时尚、简约、舒适、高品质、高性价比的家纺用品。为助力维萨上市，我们从前端开始梳理维萨的品牌定位与品牌建构我们决定建立品牌样貌（VI）体现维萨的品牌主张，并透过设计提升品牌价值感。在维萨的品牌LOGO优化中，我们选择三个方块组成V字型，V是Vena Rosa唯萨的开头字母，同时也形似爱心，象征对生活的热爱、对家人&情人的热爱、对品味的热爱，三个方块的组合体现随心搭配、产品丰富的特点形象。",
+      "bigImages": [
+        "/images/works/vena-rosa/b-1.png",
+        "/images/works/vena-rosa/b-2.jpg"
+      ],
+      "mobileImages": [
       ]
     }
   }
