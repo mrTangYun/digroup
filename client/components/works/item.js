@@ -95,7 +95,7 @@ export class HomeView extends Component {
           <VideoPlayer { ...videoJsOptions } />
         </Modal>
         }
-        
+
       </div>
     );
   }
