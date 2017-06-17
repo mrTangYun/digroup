@@ -116,6 +116,8 @@
     "webpack-hot-middleware": "^2.13.2"
   },
   "dependencies": {
+    "antd": "^2.11.0",
+    "babel-plugin-import": "^1.2.1",
     "debug": "^2.3.3",
     "express": "^4.14.0",
     "file-loader": "^0.9.0",
@@ -132,12 +134,14 @@
     "react-redux": "^4.4.6",
     "react-router": "^3.0.0",
     "react-transition-group": "^1.1.2",
+    "react-videojs": "0.0.3",
     "redux": "^3.6.0",
     "redux-thunk": "^2.1.0",
     "rimraf": "^2.5.4",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
+    "video.js": "^6.1.0",
     "yargs": "^6.5.0"
   }
 }

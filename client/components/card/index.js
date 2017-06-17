@@ -6,7 +6,7 @@ export class Card extends Component {
   constructor (props) {
     super(props);
     this.state = {
-      show: false
+      show: props.show
     };
     this.clickImgHandler = this.clickImgHandler.bind(this);
   }
@@ -18,13 +18,15 @@ export class Card extends Component {
   componentDidMount () {
     const io = new IntersectionObserver(
       entries => {
+        if (entries[0].intersectionRatio <= 0) return;
+        this.props.isIntersection();
         const { show } = this.state;
         show || this.setState({
           show: true
         }, () => {
           let oImg = new Image();
           oImg.src = this.props.data.thumbUrl;
-          this.refs.img.src = this.props.data.thumbUrl;
+          this.img.src = this.props.data.thumbUrl;
           oImg.onload = () => {
             this.setState({
               imgLoaded: true
@@ -32,14 +34,14 @@ export class Card extends Component {
             oImg = null;
           };
             // 停止观察
-          io.unobserve(this.refs.card);
+          io.unobserve(this.card);
           // 关闭观察器
           io.disconnect();
         });
       }
     );
     // 开始观察
-    io.observe(this.refs.card);
+    io.observe(this.card);
   }
   render () {
     const props = this.props.data;
@@ -47,10 +49,10 @@ export class Card extends Component {
     return (<div
       className={CSS.column + ' col-md-4 col-xs-12 ' + (show ? 'flipInX3' : 'flipContainer')}
       style={{
-        animationDelay: (props.delay || 0) + 's'
+        animationDelay: (this.props.delay || 0) + 's'
       }}
-      ref='card'
-        >
+      ref={e => {this.card = e;}}
+    >
       <div className='card' onClick={this.clickImgHandler}>
         <div className='card-header'>
           <p className={CSS['card-meta']}>{props.meta}</p>
@@ -59,7 +61,7 @@ export class Card extends Component {
         <div className={'card-image image-loading-container featured ' + (imgLoaded ? '' : 'loading')}>
           <div className='img-overlay'></div>
           <img
-            ref='img'
+            ref={e => {this.img = e;}}
             className='img-responsive featured-image' />
         </div>
         <img

@@ -47,23 +47,239 @@
     }
   },
   {
-    "url": "olly",
-    "title": "olly",
+    "url": "bentley_mother_s_day",
+    "title": "Bentley",
     "meta": "WEB DESIGN",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/5/thumb.jpg",
     "info": {
-
+      "headImg": "/images/works/5/headImg.jpg",
+      "title": "宾利—过有温度的母亲节",
+      "content": "时至母亲节之日，以“全手工打造”名闻世界的宾利，希望能从自身“制造”的角度出发，通过“母亲手的温度”唤起用户对母亲最温馨的回忆，发起一次向母亲传递爱的温度的活动。为此，我们特别制作了一款“指尖传暖”的H5。 H5紧抓“手”作为两者间的共通点，通过母爱使人心中产生的情结作为情感沟通，向受众传达宾利以“手工专注打造匠心产品”的理念。同时，以向母亲传达爱作为介质，推动用户的主动分享行为，扩大有效声量，借助“朋友圈”的群落属性，形成一定范围内的多次有效传播。",
+      "bigImages": [],
+      "mobileImages": [
+        "/images/works/5/mobile-1.png",
+        "/images/works/5/mobile-2.png",
+        "/images/works/5/mobile-3.png",
+        "/images/works/5/mobile-4.png",
+        "/images/works/5/mobile-5.png"
+      ]
     }
   },
   {
-    "url": "olly",
-    "title": "olly",
+    "url": "lenovo_a8",
+    "title": "lenovo",
     "meta": "WEB DESIGN",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/6/thumb.jpg",
     "info": {
-
+      "headImg": "/images/works/6/headImg.png",
+      "title": "联想Lenovo—进击的A8",
+      "content": "联想公司于2014年推出一款被誉为“黄金斗士”的A8手机，在其上市初期，为了能进一步抢占市场，扩大传播范围，我们从产品受众出发，精心制作了一个鬼畜风H5——《进击的A8》。《进击的A8》凭借着独特的风格脱颖而出，无论是鬼畜的画风、social的语言，还是有内涵的隐喻，都是一次全新尝试。在当下选择制作一支“出跳”的H5，目的在于能够与“90后”这样的年轻群体进行有效连接，使其对品牌沟通信息产生认同感，且更易产生话题性，便于在目标人群中产生主动分享，形成多次传播，将影响范围扩展至更广。",
+      "bigImages": [],
+      "mobileImages": [
+        "/images/works/6/mobile-1.png",
+        "/images/works/6/mobile-2.png",
+        "/images/works/6/mobile-3.png",
+        "/images/works/6/mobile-4.png",
+        "/images/works/6/mobile-5.png",
+        "/images/works/6/mobile-6.png"
+      ]
+    }
+  },
+  {
+    "url": "marlboro_ice_ball",
+    "title": "marlboro",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/marlboro/thumb.jpg",
+    "info": {
+      "headImg": "/images/works/marlboro/headImg.jpg",
+      "title": "万宝路",
+      "content": "配合全新万宝路冰爵产品上市，为在第一时间给目标受众留下深刻的产品印象，我们创造出“150%激凉感”，直接传达出“比凉更凉”的直观感受，“激+凉”的组合，创造了一种全新的冰爽概念。",
+      "bigImages": [
+        "/images/works/marlboro/b-1.jpg",
+        "/images/works/marlboro/b-2.jpg",
+        "/images/works/marlboro/b-3.jpg",
+        "/images/works/marlboro/b-4.jpg",
+        "/images/works/marlboro/b-5.jpg",
+        "/images/works/marlboro/b-6.jpg",
+        "/images/works/marlboro/b-7.jpg"
+      ],
+      "mobileImages": [
+      ]
+    }
+  },
+  {
+    "url": "roseonly",
+    "title": "Roseonly",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/roseonly/thumb.jpg",
+    "info": {
+      "headImg": "/images/works/roseonly/headImg.jpg",
+      "title": "ROSE ONLY—It’s rose, not only Christmas.",
+      "content": "roseonly作为玫瑰及珠宝的高端品牌，一直秉承着“一生只送一人”的理念，以“信者得爱，爱是唯一”为主张，专注于打造爱情的信物。不过传说中只过情人节的roseonly，这次好像不太一样。为了贴合roseonly的温情与浪漫，整部影片运用长镜头的拍摄手法，轻缓的节奏中融合了圣诞节的温馨元素，在浪漫中隐藏着一些“小确幸”，画面精致而不繁复，让用户可以清晰的从影片中捕捉到roseonly想要传达出的“一生只爱一个人”的信念。",
+      "bigImages": [
+        "/images/works/roseonly/b-1.jpg"
+      ],
+      "mobileImages": [
+      ],
+      "movies": [
+        {
+          "mp4": "http://res.tco-manchina.com.cn/job_roseonly.mp4"
+        }
+      ]
+    }
+  },
+  {
+    "url": "audi",
+    "title": "Audi",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/audi/thumb.jpg",
+    "info": {
+      "headImg": "/images/works/audi/headImg.png",
+      "title": "奥迪—卓越年华须尽欢",
+      "content": "<p>“奥迪卓越”是由一汽-大众奥迪销售事业部倡导成立的高端车主组织，其核心宗旨是：奥迪人生卓越旅程。</p><p> 为了丰富自身传播渠道，提高微博账号的关注与热度，“奥迪卓越”希望可以在不同的时间节点，搭配符合自身调性的文案与图片，做更高品质的内容宣传。这样既能够将品牌概念深入渗透到卓越会员的生活圈子中，加深品牌印象、提高品牌高度及好感度，更可借已有卓越会员的高端生活圈子及广泛人脉关系，吸引更多具有同等身份的人加入到卓越组织中来。</p>",
+      "bigImages": [
+      ],
+      "mobileImages": [
+        "/images/works/audi/s1.jpg",
+        "/images/works/audi/s2.jpg",
+        "/images/works/audi/s3.jpg",
+        "/images/works/audi/s4.jpg"
+      ]
+    }
+  },
+  {
+    "url": "momo",
+    "title": "逍遥西游",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/momo/thumb.png",
+    "info": {
+      "headImg": "/images/works/momo/headImg.jpg",
+      "title": "逍遥西游—潜藏在你身边的网游",
+      "content": "逍遥西游为了抢占手机网游的市场，特聘请了国际级的喜剧大咖——吴孟达来为自己代言，但恐怕就是吴孟达的铁粉也不会想到在逍遥西游里他竟然是这样的吴孟达，在逍遥西游手游的这支广告片中，吴孟达延续他一贯的无厘头喜剧风格，借助其明星效应的同时，贴合了目标用户喜欢诙谐幽默，轻松搞笑的特点。而片中剧情的设定，更是在将逍遥西游这款手游的游戏亮点逐一揭开，吸引用户的兴趣，引发主动体验行为，进行潜在用户的有效转化。",
+      "bigImages": [
+        "/images/works/momo/b-1.png"
+      ],
+      "mobileImages": [
+      ],
+      "movies": [
+        {
+          "mp4": "http://res.tco-manchina.com.cn/job_%E9%80%8D%E9%81%A5%E8%A5%BF%E6%B8%B8_pro_0716.mov"
+        }
+      ]
+    }
+  },
+  {
+    "url": "lehuijia",
+    "title": "乐惠家",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/lehuijia/thumb.jpg",
+    "info": {
+      "headImg": "/images/works/lehuijia/headImg.jpg",
+      "title": "乐惠家—“谢谢农！计划”",
+      "content": "乐惠家为用户精选优质蔬果源，并以向田间直购的方式，确保蔬果的新鲜&可口的价格，所以我们认为创意的施力点应是对这样的服务进行包装。将“乐惠家蔬果直购服务”打造成一个服务品牌，只要看到它出现，不论为用户带来的是什么，都等于一种品质的保证。乐惠家“谢谢农！计划”确保品质服务的同时，也帮助农民免予中间商的利益剥削。为绝对优质的蔬果，向农民的辛勤至上12万分敬意。把新鲜带回家，是我们对果农表达的最高敬意。",
+      "bigImages": [
+        "/images/works/lehuijia/b-1.jpg",
+        "/images/works/lehuijia/b-2.jpg"
+      ],
+      "mobileImages": [
+      ]
+    }
+  },
+  {
+    "url": "dakar",
+    "title": "Dakar",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/dakar/thumb.png",
+    "info": {
+      "headImg": "/images/works/dakar/headImg.jpg",
+      "title": "达喀尔—驾驶学院搭建",
+      "content": "达喀尔作为全球最高端越野赛事进军中国，驾驶学院作为重要战略内容，为学院搭建线上传播阵地，扩大传播声势；提供会员服务落地平台，通过线上实现会员管理，最终实现达喀尔品牌在中国的落地生根，网站主要包括以下几个方面的功能：介绍、推广、传播、交流、互动、电商、在线服务、媒体属性等，网站主要分新闻中心、互动论坛、在线服务，三个主要板块，清晰的为用户展示学院相关资讯及内容",
+      "bigImages": [
+        "/images/works/dakar/b-1.png",
+        "/images/works/dakar/b-2.png",
+        "/images/works/dakar/b-3.png",
+        "/images/works/dakar/b-4.png",
+        "/images/works/dakar/b-5.png"
+      ],
+      "mobileImages": [
+      ]
+    }
+  },
+  {
+    "url": "bentley-tibet",
+    "title": "Bentley",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/bentley-tibet/thumb.png",
+    "info": {
+      "headImg": "/images/works/bentley-tibet/headImg.png",
+      "title": "添越西藏极致之旅",
+      "content": "宾利组织了一次在西藏体验新款SUV添越的试驾活动，让客户们在西藏壮阔的土地上充分享受添越带来的驾驶乐趣。为了让更多的宾利客户能感受这次不同凡响的极致之旅，我们以海拔4000米炽烈骄阳为灯光，以险峻壮阔的高原圣湖为布景，以传承千年的古老文明为场记，以质朴纯洁的藏地民风为助演，以心灵为镜头，以信念为剧本，以史上首部豪华SUV领衔，拍摄了全球第一支源自中国灵感的添越SUV诗意大片。",
+      "bigImages": [
+        "/images/works/bentley-tibet/b-1.png",
+        "/images/works/bentley-tibet/b-2.png"
+      ],
+      "mobileImages": [
+      ],
+      "movies": [
+        {
+          "mp4": "http://res.tco-manchina.com.cn/job_%E5%AE%BE%E5%88%A9%E6%B7%BB%E8%B6%8A%E8%A5%BF%E8%97%8F%E6%9E%81%E8%87%B4%E4%B9%8B%E6%97%85.m4v"
+        }
+      ]
+    }
+  },
+  {
+    "url": "benz-price",
+    "title": "Benz",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/benz-price/thumb.jpg",
+    "info": {
+      "headImg": "/images/works/benz-price/headImg.jpg",
+      "title": "新一年，惠更好",
+      "content": "在新的一年即将到来之际，梅赛德斯·奔驰欢乐发声，在奔驰大厦的楼体上，将代表一代人记忆的俄罗斯方块，以游戏动态形式进行呈现，这种游戏与灯光效果的结合，究竟会迸发出怎样的视觉体验呢？应用灯光的变化消除“方块”，使“￥”从顶端不断下降，从而巧妙传达梅赛德斯·奔驰2015年价格体系下调这一信息。用“方块”与“金币”间的转变积累，让价格的消减变得更直观、更震撼，充分演绎“惠”的概念。",
+      "bigImages": [
+        "/images/works/benz-price/b-1.jpg",
+        "/images/works/benz-price/b-2.jpg"
+      ],
+      "mobileImages": [
+      ],
+      "movies": [
+        {
+          "mp4": "http://res.tco-manchina.com.cn/job_%E5%A5%94%E9%A9%B0-%E6%96%B0%E5%B9%B4%E6%83%A0%E6%9B%B4%E5%A5%BD.MP4"
+        }
+      ]
+    }
+  },
+  {
+    "url": "benz-fun",
+    "title": "Benz",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/benz-fun/thumb.jpg",
+    "info": {
+      "headImg": "/images/works/benz-fun/headImg.png",
+      "title": "省钱，也能这么fun！",
+      "content": "提到梅赛德斯-奔驰，想到的都是贴心舒适的座驾，却很少有人提及奔驰同样贴心的售后服务，为此我们别出心裁地搭建了一个集合售后部门精密、巧趣特点的奔驰车专用“赛道”，做了这样一支超有fun的广告！在巧妙的连锁装置上，奔驰车模沿轨道前进，一路启动每个设计精妙的机关，每一次金币都以创意方式落入存钱盒里，充满惊喜和趣味。所有机关和妙招的铺陈，都诠释了这是一张聪明实惠的卡。每一次保养，都将是有趣、有范儿的省钱之旅，体验到生活的巧和趣。",
+      "bigImages": [
+        "/images/works/benz-fun/b-1.jpg",
+        "/images/works/benz-fun/b-2.jpg"
+      ],
+      "mobileImages": [
+      ],
+      "movies": [
+        {
+          "mp4": "http://res.tco-manchina.com.cn/job_%E7%9C%81%E9%92%B1%EF%BC%8C%E4%B9%9F%E8%83%BD%E8%BF%99%E4%B9%88fun%EF%BC%81.mov"
+        }
+      ]
     }
   }
 ]

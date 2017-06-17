@@ -10,7 +10,12 @@ export const PageTitle = (props) => (<QueueAnim
 		            { opacity: [1, 0], translateY: [0, 20] }
 		        ]}
 	  		>
-		    	<div className={CSS["pageTitle"]} key={"pageTitle"}>{props.title}</div>
+		    	<div className={CSS["pageTitle"]} key={"pageTitle"}>
+		    		<div>{props.title}</div>
+		    		{
+		    			props.rightComponent
+		    		}
+		    	</div>
 		    </QueueAnim>);
 
 PageTitle.propTypes = {
