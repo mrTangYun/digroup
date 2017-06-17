@@ -23,17 +23,17 @@ export class HomeView extends Component {
     const data = Data.filter(item => item.url === projectId)[0];
     const info = data ? data.info : null;
     const movieComponent = (info.movies && info.movies.length > 0) ? <div
-    className={CSS['movieBtn']}
-    onClick={() => {
-      this.setState({
-        showVideoModal: true
-      });
-    }}
+      className={CSS['movieBtn']}
+      onClick={() => {
+        this.setState({
+          showVideoModal: true
+        });
+      }}
     >
     MOVIE</div> : null;
     const videoJsOptions = {
       width: 800,
-      height: 600,
+      height: 450,
       autoplay: true,
       controls: true,
       sources: [{
@@ -46,8 +46,8 @@ export class HomeView extends Component {
     return (
       <div className={CSS['page-works']}>
         <PageTitle
-        title={data.title}
-        rightComponent={movieComponent}
+          title={data.title}
+          rightComponent={movieComponent}
         />
         <div className={CSS['work-info-container']}>
           {
@@ -81,19 +81,20 @@ export class HomeView extends Component {
 	      </Grid>
         </div>
         {
-          movieComponent && this.state.showVideoModal && <Modal title="Title"
-          width={830}
-          visible={true}
-          footer={null}
-          title={null}
-          onCancel={() => {
-            this.setState({
-              showVideoModal: false
-            });
-          }}
-        >
-          <VideoPlayer { ...videoJsOptions } />
-        </Modal>
+          movieComponent && this.state.showVideoModal && <Modal
+            wrapClassName='videoModal'
+            width={830}
+            visible
+            footer={null}
+            title={null}
+            onCancel={() => {
+              this.setState({
+                showVideoModal: false
+              });
+            }}
+          >
+            <VideoPlayer {...videoJsOptions} />
+          </Modal>
         }
 
       </div>
