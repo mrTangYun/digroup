@@ -13,7 +13,7 @@ export class HomeView extends Component {
 		this.tmpArray = [];
 		this.state = {
 			delayObject: Data.map((item, index) => {
-				return (index + 1) / 3
+				return (index + 1) / 6
 			})
 		};
 	}
@@ -32,7 +32,7 @@ export class HomeView extends Component {
 	        const delayObject = this.state.delayObject.slice(0);
 	        // console.log(tmpArray_);
 	        tmpArray_.map((item, index) => {
-	        	delayObject[item] = (index + 1) / 3
+	        	delayObject[item] = (index + 1) / 6
 	        });
 
 	        // console.log(delayObject);
@@ -49,8 +49,8 @@ export class HomeView extends Component {
 	    return (
 	      	<div className={CSS['page-works']}>
 			  	<PageTitle title='SELECTED WORKS' />
-			    <div className='container'>
-				    <div className='row'>
+			    <div className='container-fluid'>
+				    <div className='row-fluid'>
 				    {
 				    	Data.map((item, index) => {
 				    		return (<Card

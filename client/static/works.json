@@ -1,11 +1,114 @@
 [
   {
-    "url": "olly",
-    "title": "olly",
+    "url": "man",
+    "title": "Man",
     "meta": "WEB DESIGN",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
-    "thumbUrl": "/images/works/1/thumb.jpg",
+    "thumbUrl": "/images/works/man/thumb.jpg",
     "info": {
+      "headImg": "/images/works/man/headImg.jpg",
+      "title": "曼恩",
+      "content": "全程负责MAN卡车最新车型和配套服务体系EfficientLine高效版，在北京及4地（大连，广州，上海，成都）路演活动的策划与执行工作，并为MAN EfficientLine服务体系设计专属曼恩“省长”的卡通形象，代表“省钱，省心，省时，省油”等特点，获得了客户及媒体的认可与大量好评。",
+      "bigImages": [
+        "/images/works/man/b-1.jpg",
+        "/images/works/man/b-2.jpg",
+        "/images/works/man/b-3.jpg",
+        "/images/works/man/b-4.jpg",
+        "/images/works/man/b-5.jpg"
+      ],
+      "mobileImages": [
+      ]
+    }
+  },
+  {
+    "url": "benz-safechair",
+    "title": "Benz",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/benz-safechair/thumb.jpg",
+    "info": {
+      "headImg": "/images/works/benz-safechair/headImg.png",
+      "title": "奔驰儿童安全座椅",
+      "content": "从地球危机的警报声刺破孩子悠闲的清晨开始，无论是何种颠簸、惊险的状况，超能座椅都在保护着我们的超能小英雄，当地球危机解除，影片回到现实，孩子们安逸的睡在舒适的超能安全座椅上，原来一切都是梦。广告片从孩子的角度出发，结合“地球危机”的主题，打造出极其震撼的场景体验，将超能座椅的安全性能充分呈现。气氛感超强的故事情节，给受众带来对产品的深刻印象。",
+      "bigImages": [
+        "/images/works/benz-safechair/b-1.png",
+        "/images/works/benz-safechair/b-2.png"
+      ],
+      "mobileImages": [
+      ],
+      "movies": [
+        {
+          "mp4": "http://res.tco-manchina.com.cn/job_%E5%A5%94%E9%A9%B0%20%E5%84%BF%E7%AB%A5%E5%BA%A7%E6%A4%85.mov"
+        }
+      ]
+    }
+  },
+  {
+    "url": "travelskyir",
+    "title": "Travelskyir",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/travelskyir/thumb.png",
+    "info": {
+      "headImg": "/images/works/travelskyir/headImg.jpg",
+      "title": "航旅百事通—时间就该浪费在美好的事物上",
+      "content": "中国民航信息网络股份有限公司，是中国航空旅游业信息科技解决方案的主导供应商。航旅百事通是其重磅推出的互助式问答咨询社区，能够帮用户解决所有关于航空旅游专业问题。广告片以轻松有趣的“冷知识”作为开场，将人一生中要经历的各种时间量化后进行数据对比，在吸引目光的同时，通过影片的引导，让观众对“时间就该浪费在美好的事物上”这一观点有更加理性化的认知，并将“航旅百事通”的简洁、专业、高效，作为主要记忆点深植用户心中，引发用户的主动体验行为，从而对潜在用户进行有效转化。",
+      "bigImages": [
+        "/images/works/travelskyir/b-1.png",
+        "/images/works/travelskyir/b-2.png",
+        "/images/works/travelskyir/b-3.png"
+      ],
+      "mobileImages": [
+      ],
+      "movies": [
+        {
+          "mp4": "http://res.tco-manchina.com.cn/job_%E4%B8%AD%E8%88%AA%E4%BF%A1%20%E8%88%AA%E6%97%85%E7%99%BE%E4%BA%8B%E9%80%9A.mov"
+        }
+      ]
+    }
+  },
+  {
+    "url": "didi",
+    "title": "DiDi",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/didi/thumb.png",
+    "info": {
+      "headImg": "/images/works/didi/headImg.png",
+      "title": "滴滴一周七天，遇见美好",
+      "content": "滴滴出行为了完成对全国市场的布局，希望通过扩大顺风车市场，成为全国覆盖最广的拼车平台。自2015年7月2日起，滴滴开启了一次为期7天的线下Event，为了配合活动，我们做了一款前期预热的H5。 H5中我们将陌生的旅程转化成和未知人相遇的美好故事，以感性化的“三行诗”形式，传递出来自各个领域的七位精英领袖们的生活态度。同时，在传播时为每个人物贴上如霸道女总裁、摆龙门阵的自媒体人、爱哭女魔头等Social感十足的趣味标签，引发受众好奇心理，通过话题传播创造社交声量，为进行二次传播蓄力。",
+      "bigImages": [
+      ],
+      "mobileImages": [
+        "/images/works/didi/S1.png",
+        "/images/works/didi/S2.png",
+        "/images/works/didi/S3.png",
+        "/images/works/didi/S4.png",
+        "/images/works/didi/S5.png",
+        "/images/works/didi/S6.png"
+      ]
+    }
+  },
+  {
+    "url": "the_crossing",
+    "title": "The Crossing",
+    "meta": "WEB DESIGN",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/peace/thumb.png",
+    "info": {
+      "headImg": "/images/works/peace/headImg.png",
+      "title": "太平轮一次为彼岸等待的航行",
+      "content": "《太平轮》是一部集战争、爱情、灾难多种元素于一体的影片，取材自真实发生于1949年1月的“太平轮事件”。影片上映前，为助力《太平轮》的线上宣传，我们特别制作了预热H5——《太平轮上的浮生百态》。H5开篇中的文案“一次为彼岸等待的航行”即传递出整个影片的悲情氛围，随着受众按下“启程”按钮，能够亲临“太平轮”上，通过点击不同船室可欣赏到其中的情境。最后，在瞬间发生的意外撞击后被摧毁殆尽！整支预热H5，以剧照、音乐、互动、文字全方位呈现了“大时代，小人物”的主题，成功引发受众的观影期待及热情，为影片的线上宣传制造更大声量。",
+      "bigImages": [
+      ],
+      "mobileImages": [
+        "/images/works/peace/S1.png",
+        "/images/works/peace/S2.png",
+        "/images/works/peace/S3.png",
+        "/images/works/peace/S4.png",
+        "/images/works/peace/S5.png",
+        "/images/works/peace/S6.png"
+      ]
     }
   },
   {
@@ -29,26 +132,6 @@
           "mp4": "http://res.tco-manchina.com.cn/job_LeMax1_Mobile_TVC.mp4"
         }
       ]
-    }
-  },
-  {
-    "url": "olly",
-    "title": "olly",
-    "meta": "WEB DESIGN",
-    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
-    "thumbUrl": "/images/works/3/thumb.jpg",
-    "info": {
-
-    }
-  },
-  {
-    "url": "olly",
-    "title": "olly",
-    "meta": "WEB DESIGN",
-    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
-    "thumbUrl": "/images/works/4/thumb.jpg",
-    "info": {
-
     }
   },
   {

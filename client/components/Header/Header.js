@@ -6,7 +6,7 @@ import logo from './logo.svg';
 import QueueAnim from 'rc-queue-anim';
 
 export const Header = () => (
-  <Grid fluid  className={CSS["header"]}>
+  <Grid fluid className={CSS["header"]}>
     <Row className={CSS["header-grid"]}>
       <QueueAnim duration={1500} type={'alpha'}>
         <Col key='logo' md={2} className={CSS["header-left"]}>

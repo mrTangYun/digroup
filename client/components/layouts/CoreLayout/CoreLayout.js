@@ -7,7 +7,7 @@ export const CoreLayout = ({ location, children }) => {
 	const key = location.pathname;
   	const keys = key.replace('/', '') ? [key.replace('/', '')] : ['home'];
 	return(
-	  <div className='container'>
+	  <div className='container-fluid'>
 	    <Header />
 	    <QueueAnim
 	    	duration={1500}
