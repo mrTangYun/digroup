@@ -49,55 +49,53 @@ export class HomeView extends Component {
           title={data.title}
           rightComponent={movieComponent}
         />
-        <div className='container'>
-          <div className={CSS['work-info-container']}>
-            {
-              info.headImg && <img src={info.headImg} width='100%' />
-            }
-            {
-              info.title && <div className={CSS['title']}>{info.title}</div>
-            }
-            {
-              info.content && <div
-                className={CSS['content']}
-                dangerouslySetInnerHTML={{ __html: info.content }} />
-            }
-            {
-              info.bigImages && info.bigImages.length > 0 && info.bigImages.map(item => <div
-                key={item}
-                className={CSS['bigImages-item']}>
-                <img src={item} width='100%' />
-              </div>)
-            }
-            <Grid fluid>
-              <Row className={CSS["services-row"]}>
+        <div className={CSS['work-info-container']}>
+          {
+            info.headImg && <img src={info.headImg} width='100%' />
+          }
+          {
+            info.title && <div className={CSS['title']}>{info.title}</div>
+          }
+          {
+            info.content && <div
+              className={CSS['content']}
+              dangerouslySetInnerHTML={{ __html: info.content }} />
+          }
+          {
+            info.bigImages && info.bigImages.length > 0 && info.bigImages.map(item => <div
+              key={item}
+              className={CSS['bigImages-item']}>
+              <img src={item} width='100%' />
+            </div>)
+          }
+          <Grid fluid>
+            <Row className={CSS["services-row"]}>
               {
                 info.mobileImages && info.mobileImages.length > 0 && info.mobileImages.map(item => <Col xs={6} sm={numOfRow}
-                  key={item}
-                  className={CSS['bigImages-item']}>
+                                                                                                        key={item}
+                                                                                                        className={CSS['bigImages-item']}>
                   <Img src={item} width='100%' />
                 </Col>)
               }
-              </Row>
+            </Row>
           </Grid>
-          </div>
-          {
-            movieComponent && this.state.showVideoModal && <Modal
-              wrapClassName='videoModal'
-              width={830}
-              visible
-              footer={null}
-              title={null}
-              onCancel={() => {
-                this.setState({
-                  showVideoModal: false
-                });
-              }}
-            >
-              <VideoPlayer {...videoJsOptions} />
-            </Modal>
-          }
         </div>
+        {
+          movieComponent && this.state.showVideoModal && <Modal
+            wrapClassName='videoModal'
+            width={830}
+            visible
+            footer={null}
+            title={null}
+            onCancel={() => {
+              this.setState({
+                showVideoModal: false
+              });
+            }}
+          >
+            <VideoPlayer {...videoJsOptions} />
+          </Modal>
+        }
       </div>
     );
   }

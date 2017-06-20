@@ -1,8 +1,9 @@
 [
   {
     "url": "man",
-    "title": "Man",
-    "meta": "WEB DESIGN",
+    "title": "路演策划及配套服务",
+    "meta": "线下活动",
+    "brand": "Man",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/man/thumb.jpg",
     "info": {
@@ -22,8 +23,9 @@
   },
   {
     "url": "benz-safechair",
-    "title": "Benz",
-    "meta": "WEB DESIGN",
+    "title": "儿童安全座椅",
+    "meta": "TVC",
+    "brand": "Mercedes-Benz",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/benz-safechair/thumb.jpg",
     "info": {
@@ -45,8 +47,9 @@
   },
   {
     "url": "travelskyir",
-    "title": "Travelskyir",
-    "meta": "WEB DESIGN",
+    "title": "航旅百事通",
+    "meta": "TVC",
+    "brand": "中航信",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/travelskyir/thumb.png",
     "info": {
@@ -69,8 +72,9 @@
   },
   {
     "url": "didi",
-    "title": "DiDi",
-    "meta": "WEB DESIGN",
+    "title": "遇见美好",
+    "meta": "H5",
+    "brand": "滴滴出行",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/didi/thumb.png",
     "info": {
@@ -91,8 +95,9 @@
   },
   {
     "url": "the_crossing",
-    "title": "The Crossing",
-    "meta": "WEB DESIGN",
+    "title": "线上宣传",
+    "meta": "H5",
+    "brand": "太平轮",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/peace/thumb.png",
     "info": {
@@ -113,8 +118,9 @@
   },
   {
     "url": "lemax",
-    "title": "LeMax",
-    "meta": "WEB DESIGN",
+    "title": "乐视家族",
+    "meta": "TVC",
+    "brand": "乐视",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/2/thumb.jpg",
     "info": {
@@ -136,8 +142,9 @@
   },
   {
     "url": "bentley_mother_s_day",
-    "title": "Bentley",
-    "meta": "WEB DESIGN",
+    "title": "宾利-温暖母亲节",
+    "meta": "H5",
+    "brand": "Bentley",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/5/thumb.jpg",
     "info": {
@@ -156,8 +163,9 @@
   },
   {
     "url": "lenovo_a8",
-    "title": "lenovo",
-    "meta": "WEB DESIGN",
+    "title": "联想A8手机",
+    "meta": "H5",
+    "brand": "Lenovo",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/6/thumb.jpg",
     "info": {
@@ -177,8 +185,9 @@
   },
   {
     "url": "marlboro_ice_ball",
-    "title": "marlboro",
-    "meta": "WEB DESIGN",
+    "title": "万宝路冰爵上市",
+    "meta": "品牌包装",
+    "brand": "Marlboro",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/marlboro/thumb.jpg",
     "info": {
@@ -200,8 +209,9 @@
   },
   {
     "url": "roseonly",
-    "title": "Roseonly",
-    "meta": "WEB DESIGN",
+    "title": "圣诞节营销",
+    "meta": "TVC",
+    "brand": "Roseonly",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/roseonly/thumb.jpg",
     "info": {
@@ -222,8 +232,9 @@
   },
   {
     "url": "audi",
-    "title": "Audi",
-    "meta": "WEB DESIGN",
+    "title": "奥迪卓越官微运营",
+    "meta": "平面设计",
+    "brand": "Audi",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/audi/thumb.jpg",
     "info": {
@@ -243,7 +254,8 @@
   {
     "url": "momo",
     "title": "逍遥西游",
-    "meta": "WEB DESIGN",
+    "meta": "TVC",
+    "brand": "陌陌",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/momo/thumb.png",
     "info": {
@@ -265,7 +277,8 @@
   {
     "url": "lehuijia",
     "title": "乐惠家",
-    "meta": "WEB DESIGN",
+    "meta": "品牌及包装设计",
+    "brand": "首创置业",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/lehuijia/thumb.jpg",
     "info": {
@@ -282,8 +295,9 @@
   },
   {
     "url": "dakar",
-    "title": "Dakar",
-    "meta": "WEB DESIGN",
+    "title": "达喀尔官方驾驶学院",
+    "meta": "网站搭建",
+    "brand": "Daker",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/dakar/thumb.jpg",
     "info": {
@@ -303,8 +317,9 @@
   },
   {
     "url": "bentley-tibet",
-    "title": "Bentley",
-    "meta": "WEB DESIGN",
+    "title": "添越SUV试驾活动",
+    "meta": "TVC",
+    "brand": "Bentley",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/bentley-tibet/thumb.png",
     "info": {
@@ -326,8 +341,9 @@
   },
   {
     "url": "bentley",
-    "title": "Bentley",
-    "meta": "WEB DESIGN",
+    "title": "专属定制服务",
+    "meta": "H5",
+    "brand": "Bentley",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/bentley/thumb.png",
     "info": {
@@ -348,8 +364,9 @@
   },
   {
     "url": "benz-price",
-    "title": "Benz",
-    "meta": "WEB DESIGN",
+    "title": "新一年 惠更好",
+    "meta": "TVC",
+    "brand": "Mercedes-Benz",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/benz-price/thumb.jpg",
     "info": {
@@ -371,8 +388,9 @@
   },
   {
     "url": "benz-fun",
-    "title": "Benz",
-    "meta": "WEB DESIGN",
+    "title": "逸蓝修养套餐",
+    "meta": "TVC",
+    "brand": "Mercedes-Benz",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/benz-fun/thumb.jpg",
     "info": {
@@ -394,8 +412,9 @@
   },
   {
     "url": "purina",
-    "title": "Purina",
-    "meta": "WEB DESIGN",
+    "title": "冠能30天挑战",
+    "meta": "Campaign",
+    "brand": "宠优",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/purina/thumb.png",
     "info": {
@@ -414,8 +433,9 @@
   },
   {
     "url": "vena-rosa",
-    "title": "Rosa",
-    "meta": "WEB DESIGN",
+    "title": "品牌策略定位及Logo设计",
+    "meta": "平面设计",
+    "brand": "Vena Rosa",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
     "thumbUrl": "/images/works/vena-rosa/thumb.jpg",
     "info": {

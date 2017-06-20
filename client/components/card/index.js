@@ -64,10 +64,12 @@ export class Card extends Component {
             ref={e => {this.img = e;}}
             className='img-responsive featured-image' />
         </div>
-        <img
-          className='client-logo'
-          src={props.logoUrl}
-          style={{ opacity: 1 }} />
+        {
+          props.brand && <div
+            className='client-logo'
+            style={{ opacity: 1 }}
+          >{props.brand}</div>
+        }
       </div>
     </div>);
   }

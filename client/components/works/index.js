@@ -5,7 +5,6 @@ import PageTitle from '../PageTitle';
 import Data from '../../static/works.json';
 
 export class HomeView extends Component {
-
   constructor (props) {
     super(props);
     this.delayArray = [];
@@ -47,7 +46,10 @@ export class HomeView extends Component {
     const { delayObject } = this.state;
     return (
       <div className={CSS['page-works']}>
-        <PageTitle title='SELECTED WORKS' />
+        <PageTitle
+          title='SELECTED WORKS'
+          isWorkListpage
+        />
         <div className='container-fluid'>
           <div className='row-fluid'>
             {

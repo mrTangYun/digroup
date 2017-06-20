@@ -3,20 +3,24 @@
 	margin-bottom: 5.18em;
 	.header-grid{
 		.header-left{
-			padding-left: 65px;
+      &.workListpage{
+        padding-left: 65px;
+      }
 		}
 		.header-right{
 			display: flex;
 			justify-content: flex-end;
 			padding: 0;
-			padding-right: 65px;
+      &.workListpage{
+        padding-right: 65px;
+      }
 			.header-navs{
 				a{
 					font-size: .875em;
 					padding: 0 1em;
 					color: #b5b5b6;
 					text-decoration: none;
-					&::hover{
+					&:hover{
 						text-decoration: none;
 					}
 					&.route--active{
@@ -56,9 +60,11 @@
 	margin-bottom: 25px;
 	display: flex;
 	justify-content: space-between;
-    height: 35px;
-    line-height: 35px;
-    padding-left: 65px;
+  height: 35px;
+  line-height: 35px;
+  &.workListpage{
+    padding-left: 50px;
+  }
     div{
     	flex: 15;
     	&.movieBtn{

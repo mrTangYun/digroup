@@ -164,6 +164,8 @@
     bottom: 20px;
     margin-left: 20px;
     max-width: 105px;
+    font-size: 24px;
+    color: #fff;
 }
 .loading:after {
     border: .2rem solid #505050;
@@ -335,4 +337,8 @@
 .videoModal .ant-modal-content{
   background: transparent;
   box-shadow: none;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
 }

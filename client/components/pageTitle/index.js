@@ -10,7 +10,10 @@ export const PageTitle = (props) => (<QueueAnim
 		            { opacity: [1, 0], translateY: [0, 20] }
 		        ]}
 	  		>
-		    	<div className={CSS["pageTitle"]} key={"pageTitle"}>
+		    	<div
+            className={CSS["pageTitle"] + ' ' + (props.isWorkListpage ? CSS['workListpage'] : '')}
+            key={"pageTitle"}
+          >
 		    		<div>{props.title}</div>
 		    		{
 		    			props.rightComponent
