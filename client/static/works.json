@@ -51,7 +51,7 @@
     "meta": "TVC",
     "brand": "中航信",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
-    "thumbUrl": "/images/works/travelskyir/thumb.png",
+    "thumbUrl": "/images/works/travelskyir/thumb.jpg",
     "info": {
       "headImg": "/images/works/travelskyir/headImg.jpg",
       "title": "航旅百事通—时间就该浪费在美好的事物上",
@@ -76,7 +76,7 @@
     "meta": "H5",
     "brand": "滴滴出行",
     "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
-    "thumbUrl": "/images/works/didi/thumb.png",
+    "thumbUrl": "/images/works/didi/thumb.jpg",
     "info": {
       "headImg": "/images/works/didi/headImg.jpg",
       "title": "滴滴一周七天，遇见美好",
@@ -447,6 +447,30 @@
         "/images/works/vena-rosa/b-2.jpg"
       ],
       "mobileImages": [
+      ]
+    }
+  },
+  {
+    "url": "le-max2",
+    "title": "LeMax2",
+    "meta": "TVC",
+    "brand": "乐视",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/leshi-max2/thumb.png",
+    "info": {
+      "headImg": "/images/works/leshi-max2/headImg.jpg",
+      "title": "乐视手机",
+      "content": "乐视推出新款乐2pro手机，为了在产品发布会上播放产品推广视频，本条TVC着重于体现品牌风格与质感，此外从实质、外观、新增及突破四点上展示新产品的差异以及优势，强调乐视2pro强调质感、专注工艺、突出品位及华丽视效的特点。",
+      "bigImages": [
+        "/images/works/leshi-max2/b-1.png",
+        "/images/works/leshi-max2/b-2.png"
+      ],
+      "mobileImages": [
+      ],
+      "movies": [
+        {
+          "mp4": "http://res.tco-manchina.com.cn/job_LeMax2_60s_Final.mp4"
+        }
       ]
     }
   }
