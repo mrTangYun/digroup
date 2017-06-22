@@ -349,3 +349,14 @@
   padding-left: 0;
   padding-right: 0;
 }
+@media (max-width: 768px){
+  .ant-modal {
+    margin: 0;
+  }
+  .ant-modal-body{
+    padding: 0;
+  }
+  .video-js .vjs-big-play-button{
+    display: none;
+  }
+}

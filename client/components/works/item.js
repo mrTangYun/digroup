@@ -8,6 +8,8 @@ import Img from '../imageTag/';
 import { Modal } from 'antd';
 import VideoPlayer from '../video';
 
+const WIDTH = window.innerWidth;
+const isMobile = WIDTH <= 768;
 export class HomeView extends Component {
   constructor(props) {
     super(props);
@@ -32,7 +34,7 @@ export class HomeView extends Component {
     >
     MOVIE</div> : null;
     const videoJsOptions = {
-      width: 800,
+      width: isMobile ? WIDTH : 800,
       height: 450,
       autoplay: true,
       controls: true,
@@ -83,7 +85,7 @@ export class HomeView extends Component {
         {
           movieComponent && this.state.showVideoModal && <Modal
             wrapClassName='videoModal'
-            width={830}
+            width={isMobile ? WIDTH : 830}
             visible
             footer={null}
             title={null}

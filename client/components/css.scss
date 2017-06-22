@@ -1,6 +1,26 @@
+.header-nav{
+  display: none;
+  color: #b5b5b6;
+  @media (max-width: 768px){
+    display: block;
+    & .logo{
+      max-width: 180px;
+    }
+    a {
+      color: #b5b5b6;
+      &.route--active{
+        color: #008ac2;
+      }
+
+    }
+  }
+}
 .header{
 	margin-top: 2.75em;
 	margin-bottom: 5.18em;
+  @media (max-width: 768px){
+    display: none;
+  }
 	.header-grid{
 		.header-left{
       &.workListpage{

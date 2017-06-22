@@ -2,17 +2,16 @@ import React from 'react';
 import videojs from 'video.js';
 
 export default class VideoPlayer extends React.Component {
-  componentDidMount() {
+  componentDidMount () {
     // instantiate video.js
-    this.player = videojs(this.videoNode, this.props, function onPlayerReady() {
+    this.player = videojs(this.videoNode, this.props, function onPlayerReady () {
       console.log('onPlayerReady', this);
     });
   }
-
   // destroy player on unmount
   componentWillUnmount() {
     if (this.player) {
-      this.player.dispose()
+      this.player.dispose();
     }
   }
 
