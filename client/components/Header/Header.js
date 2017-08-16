@@ -32,9 +32,14 @@ export const Header = (props) => {
               </Link>
             </div>
             <div className={CSS['header-wchatAndWeibo']}>
-              <div>WECHAT</div>
+              <div className={CSS['wchat']}>
+                WECHAT
+                <div className={CSS['qrcode']}>
+                  <img src="/images/qrcode_for_gh_98facb3e6b89_258.jpg" alt=""/>
+                </div>
+              </div>
               <div>/</div>
-              <div>WEIBO</div>
+              <a href='https://weibo.com/u/2645342737' target='_blank'>WEIBO</a>
             </div>
             <div className={CSS['header-laug']}>中文</div>
           </Col>

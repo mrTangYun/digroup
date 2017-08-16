@@ -64,6 +64,29 @@
 					clear: both;
 					display: block;
 				}
+				.wchat{
+					position: relative;
+					.qrcode{
+						position: absolute;
+						display: none;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -10%);
+						z-index: 1;
+						width: 150px;
+						img{
+							width: 100%;
+						}
+					}
+				}
+				.wchat:hover{
+					.qrcode{
+						display: block;
+					}
+				}
+				a{
+					color: #b5b5b6
+				}
 			}
 			.header-laug{
 				font-size: .75em;
