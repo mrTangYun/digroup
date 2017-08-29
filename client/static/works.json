@@ -1,5 +1,27 @@
 [
   {
+    "url": "sougou",
+    "title": "全世界搜狗",
+    "meta": "品牌营销创意及执行H5",
+    "brand": "搜狗搜索",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/sougou/thumb.jpg",
+    "info": {
+      "headImg": "/images/works/sougou/headImg.png",
+      "title": "全世界搜狗",
+      "content": "我们结合搜狗搜索的品牌名称元素，以“狗”为campaign的核心，在宠物圈内、面向全国发起“全世界搜狗”宠物选美大赛。H5为活动的唯一参赛与互动渠道，方便传播与扩散。活动的流程中巧妙的运用了搜狗问问、搜狗百科、知乎等产品，让参与活动的年轻人群，直接了解到搜狗搜索的优势。最终通过活动本身的趣味性和精准的线上KOL、论坛推广，活动整体效果远远超出预期。",
+      "bigImages": [],
+      "mobileImages": [
+        "/images/works/sougou/S1.jpg",
+        "/images/works/sougou/S2.jpg",
+        "/images/works/sougou/S3.jpg",
+        "/images/works/sougou/S4.jpg",
+        "/images/works/sougou/S5.jpg",
+        "/images/works/sougou/S6.jpg"
+      ]
+    }
+  },
+  {
     "url": "shell",
     "title": "壳牌案例",
     "meta": "品牌传播及kv",
