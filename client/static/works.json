@@ -1,5 +1,24 @@
 [
   {
+    "url": "sougoutvc",
+    "title": "搜狗搜索TVC",
+    "meta": "TVC",
+    "brand": "搜狗搜索",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/sougoutvc/thumb.png",
+    "info": {
+      "headImg": "/images/works/sougoutvc/headImg.png",
+      "title": "全世界搜狗",
+      "content": "在2016年“不满足于知道，试试搜狗”Campaign后，消费者对于搜狗搜索品牌认知度得到极大提升。为了持续声量，同时配合“搜狗搜索体验季”宣传产品，博尚广告为搜狗搜索策划并拍摄四支以狗狗作为主角的视频，将产品巧妙代入，通过幽默的剧情将产品的使用情境展现。",
+      "bigImages": [
+        "/images/works/sougoutvc/b-1.png",
+        "/images/works/sougoutvc/b-2.png",
+        "/images/works/sougoutvc/b-3.png"
+      ],
+      "mobileImages": []
+    }
+  },
+  {
     "url": "sougou",
     "title": "全世界搜狗",
     "meta": "品牌营销创意及执行H5",
