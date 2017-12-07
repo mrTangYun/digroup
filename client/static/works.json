@@ -1,5 +1,26 @@
 [
   {
+    "url": "ofo",
+    "title": "感受城市微风系列",
+    "meta": "平面设计",
+    "brand": "OFO",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/ofo/thumb.png",
+    "info": {
+      "headImg": "/images/works/ofo/headImg.png",
+      "title": "OFO",
+      "content": "博尚广告团队负责2017春季ofo“感受城市微风”系列平面广告拍摄创意及执行，从拍摄到后期排版与调色，执行周期15天，在上海地铁公交广告位投放。",
+      "bigImages": [
+        "/images/works/ofo/b-1.png"
+      ],
+      "mobileImages": [
+        "/images/works/ofo/S1.png",
+        "/images/works/ofo/S2.png"
+      ],
+      "movies": []
+    }
+  },
+  {
     "url": "sougoutvc",
     "title": "搜狗搜索TVC",
     "meta": "TVC",
@@ -8,14 +29,19 @@
     "thumbUrl": "/images/works/sougoutvc/thumb.png",
     "info": {
       "headImg": "/images/works/sougoutvc/headImg.png",
-      "title": "全世界搜狗",
+      "title": "搜狗搜索",
       "content": "在2016年“不满足于知道，试试搜狗”Campaign后，消费者对于搜狗搜索品牌认知度得到极大提升。为了持续声量，同时配合“搜狗搜索体验季”宣传产品，博尚广告为搜狗搜索策划并拍摄四支以狗狗作为主角的视频，将产品巧妙代入，通过幽默的剧情将产品的使用情境展现。",
       "bigImages": [
         "/images/works/sougoutvc/b-1.png",
         "/images/works/sougoutvc/b-2.png",
         "/images/works/sougoutvc/b-3.png"
       ],
-      "mobileImages": []
+      "mobileImages": [],
+      "movies": [
+        {
+          "mp4": "http://orhmsjhxc.bkt.clouddn.com/job_%E6%90%9C%E7%8B%97%E8%8B%B1%E6%96%871min.mp4"
+        }
+      ]
     }
   },
   {
