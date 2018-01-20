@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import CSS from '../css.scss';
 import Card from '../Card/index';
 import PageTitle from '../PageTitle';
-import Data from '../../static/works.json';
 
 export class HomeView extends Component {
   constructor (props) {
@@ -11,10 +10,9 @@ export class HomeView extends Component {
     this.canRun = true;
     this.tmpArray = [];
     this.state = {
-      delayObject: Data.map((item, index) => {
-        return (index + 1) / 6;
-      })
+      delayObject: []
     };
+    this.Data = [];
   }
 
   isIntersection (index) {
@@ -42,6 +40,30 @@ export class HomeView extends Component {
       this.tmpArray = [];
     }, 1000 / 2);
   }
+
+  componentDidMount() {
+    if (window.WORKS_Data) {
+      this.Data = window.WORKS_Data;
+      this.setState({
+        delayObject: this.Data.map((item, index) => {
+          return (index + 1) / 6;
+        })
+      });
+    } else {
+      fetch('/works.json')
+        .then(response => {
+          return response.text()
+        }).then(body => {
+          this.Data = JSON.parse(body);
+          window.WORKS_Data = this.Data;
+          this.setState({
+            delayObject: this.Data.map((item, index) => {
+              return (index + 1) / 6;
+            })
+          });
+        })
+    }
+  }
   render () {
     const { delayObject } = this.state;
     return (
@@ -53,7 +75,7 @@ export class HomeView extends Component {
         <div className='container-fluid'>
           <div className='row-fluid'>
             {
-              Data.map((item, index) => {
+              this.Data.map((item, index) => {
                 return (<Card
                   key={index}
                   style={{
