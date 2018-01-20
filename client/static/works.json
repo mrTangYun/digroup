@@ -1,5 +1,29 @@
 [
   {
+    "url": "ofo-hwkc2017",
+    "title": "海外开城KV设计",
+    "meta": "平面设计",
+    "brand": "OFO",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/ofo-hwkc2017/thumb.png",
+    "info": {
+      "headImg": "/images/works/ofo-hwkc2017/headImg.png",
+      "title": "OFO",
+      "content": "配合ofo小黄车海外开城的节奏，设计澳大利亚、伦敦、洛杉矶、米兰、西雅图五地创意主KV、发布会KV及延展，提取代表城市的主要元素，漂浮空中，突出骑行在城市的美好体验。",
+      "bigImages": [
+        "/images/works/ofo-hwkc2017/b-1.png",
+        "/images/works/ofo-hwkc2017/b-2.png"
+      ],
+      "mobileImages": [
+        "/images/works/ofo-hwkc2017/S-1.jpg",
+        "/images/works/ofo-hwkc2017/S-2.jpg",
+        "/images/works/ofo-hwkc2017/S-3.jpg",
+        "/images/works/ofo-hwkc2017/S-4.jpg"
+      ],
+      "movies": []
+    }
+  },
+  {
     "url": "ofo",
     "title": "感受城市微风系列",
     "meta": "平面设计",
