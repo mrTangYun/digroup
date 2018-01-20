@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import CSS from '../css.scss';
 import Card from '../Card/index';
 import PageTitle from '../PageTitle';
-import Data from '../../static/works.json';
 import { Grid, Row, Col } from 'react-bootstrap';
 import Img from '../imageTag/';
 import { Modal } from 'antd';
@@ -14,15 +13,36 @@ export class HomeView extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showVideoModal: false
+      showVideoModal: false,
+      Data: []
     };
+  }
+
+  componentDidMount() {
+    if (window.WORKS_Data) {
+      this.setState({
+        Data: window.WORKS_Data
+      });
+    } else {
+      fetch('/works.json')
+        .then(response => {
+          return response.text()
+        }).then(body => {
+          this.Data = JSON.parse(body);
+          window.WORKS_Data = this.Data;
+          this.setState({
+            Data: window.WORKS_Data
+          });
+        })
+    }
   }
   handlePlay () {
 
   }
   render () {
+    if (!this.state.Data.length) return null;
     const projectId = this.props.params.projectId;
-    const data = Data.filter(item => item.url === projectId)[0];
+    const data = this.state.Data.filter(item => item.url === projectId)[0];
     const info = data ? data.info : null;
     const movieComponent = (info.movies && info.movies.length > 0) ? <div
       className={CSS['movieBtn']}
