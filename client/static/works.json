@@ -1,5 +1,60 @@
 [
   {
+    "url": "aimer",
+    "title": "爱慕",
+    "meta": "热点事件营销",
+    "brand": "爱慕",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/aimer/thumb.png",
+    "info": {
+      "headImg": "/images/works/aimer/headImg.JPG",
+      "title": "爱慕",
+      "content": "结合热点节日及企业大事件，集合奇思妙想，设计具有话题传播性的海报，为企业建立了鲜明的形象，与消费者形成良好的互动，引发分享传播。",
+      "bigImages": [
+      ],
+      "mobileImages": [
+        "/images/works/aimer/s-0-0.jpg",
+        "/images/works/aimer/s-0-1.jpg",
+        "/images/works/aimer/s-1-0.jpg",
+        "/images/works/aimer/s-1-1.jpg",
+        "/images/works/aimer/s-2-0.jpg",
+        "/images/works/aimer/s-2-1.jpg",
+        "/images/works/aimer/s-3-0.jpg",
+        "/images/works/aimer/s-3-1.jpeg",
+        "/images/works/aimer/s-4-0.jpeg",
+        "/images/works/aimer/s-4-1.JPG"
+
+      ],
+      "movies": []
+    }
+  },{
+    "url": "qinqin",
+    "title": "功夫不负有新人",
+    "meta": "品牌内容塑造及新品上市传播",
+    "brand": "亲亲",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/qinqin/thumb.jpg",
+    "info": {
+      "headImg": "/images/works/qinqin/headImg.jpeg",
+      "title": "亲亲",
+      "content": "亲亲是从小陪着我们长大的食品品牌，在面对新一代的消费者如何拉近与他们的距离是这次传播的主要任务。通过“虾客君”IP形象的打造，重新赋予亲亲品牌新的内涵，使得品牌成功年轻化。",
+      "bigImages": [
+        "/images/works/qinqin/b0.png",
+        "/images/works/qinqin/b1.png",
+        "/images/works/qinqin/b2.png"
+      ],
+      "mobileImages": [
+        "/images/works/qinqin/s0.jpg",
+        "/images/works/qinqin/s1.jpg",
+        "/images/works/qinqin/s2.jpg",
+        "/images/works/qinqin/s3.jpg",
+        "/images/works/qinqin/s4.jpg",
+        "/images/works/qinqin/s5.jpg",
+        "/images/works/qinqin/s6.jpg"
+      ],
+      "movies": []
+    }
+  },{
     "url": "ofo-hwkc2017",
     "title": "海外开城KV设计",
     "meta": "平面设计",
