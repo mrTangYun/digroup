@@ -21,6 +21,9 @@ export const Header = (props) => {
               <Link to='/works' activeClassName={CSS['route--active']}>
                 WORKS
               </Link>
+              <Link to='/honor' activeClassName={CSS['route--active']}>
+                  HONOR
+              </Link>
               <Link to='/about' activeClassName={CSS['route--active']}>
                 ABOUT
               </Link>

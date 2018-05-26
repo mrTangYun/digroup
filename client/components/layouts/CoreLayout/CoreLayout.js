@@ -32,7 +32,12 @@ export const CoreLayout = ({ location, children }) => {
             <Nav>
               <NavItem eventKey={'works'}>
                 <Link to='/works' activeClassName={CSS['route--active']}>
-                  WORKS
+                  WORKS2
+                </Link>
+              </NavItem>
+              <NavItem eventKey={'honor'}>
+                <Link to='/honor' activeClassName={CSS['route--active']}>
+                  HONOR
                 </Link>
               </NavItem>
               <NavItem eventKey={'about'}>

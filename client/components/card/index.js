@@ -13,7 +13,7 @@ export class Card extends Component {
 
   clickImgHandler () {
     const url = this.props.data.url;
-    browserHistory.push('works/' + url);
+    browserHistory.push('honor/' + url);
   }
   componentDidMount () {
     const io = new IntersectionObserver(

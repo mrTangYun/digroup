@@ -6,6 +6,7 @@ import Redirect from './redirect';
 import Recruit from './recruit';
 import Contact from './contact';
 import About from './about';
+import Honor, {HonorItem} from './honors';
 
 /*  Note: Instead of using JSX, we recommend using react-router
     PlainRoute objects to build route definitions.   */
@@ -21,6 +22,8 @@ export const createRoutes = (store) => ({
     Contact(),
     About(),
     PageNotFound(),
+    Honor(),
+    HonorItem(),
     Redirect
   ]
 });
