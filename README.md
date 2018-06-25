@@ -1,1 +1,2 @@
 digroup
+因为nodesass的原因，node的版本必须是7和7以下才能编译成功
