@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CSS from '../css.scss';
-import Card from '../Card/index';
 import PageTitle from '../PageTitle';
 import { Grid, Row, Col } from 'react-bootstrap';
 import Img from '../imageTag/';

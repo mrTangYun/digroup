@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CSS from '../css.scss';
-import Card from '../Card/index';
+import Card from '../card/index';
 import PageTitle from '../PageTitle';
 
 export class HomeView extends Component {
