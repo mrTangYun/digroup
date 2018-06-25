@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CSS from '../css.scss';
-import PageTitle from '../PageTitle';
+import PageTitle from '../pageTitle';
 import { Grid, Row, Col } from 'react-bootstrap';
 import Img from '../imageTag/';
 import { Modal } from 'antd';

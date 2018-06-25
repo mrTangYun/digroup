@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Item from './item';
 import QueueAnim from 'rc-queue-anim';
-import PageTitle from '../PageTitle';
+import PageTitle from '../pageTitle';
 import CSS from '../css.scss';
 
 const jobs = [

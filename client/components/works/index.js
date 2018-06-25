@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CSS from '../css.scss';
 import Card from '../card/index';
-import PageTitle from '../PageTitle';
+import PageTitle from '../pageTitle';
 
 export class HomeView extends Component {
   constructor (props) {

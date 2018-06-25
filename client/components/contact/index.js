@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import CSS from '../css.scss';
 import logo from './logo.png';
 import { Grid, Row, Col } from 'react-bootstrap';
-import PageTitle from '../PageTitle';
+import PageTitle from '../pageTitle';
 import QueueAnim from 'rc-queue-anim';
 
 export class HomeView extends Component {
-	
+
 	constructor(props) {
 		super(props);
 		this.addressData = {
@@ -48,7 +48,7 @@ export class HomeView extends Component {
 		 var marker = new BMap.Marker(point, {icon: myIcon});
 		 map.addOverlay(marker);
 	}
-	
+
 	createMap = (data, element) => {
 		const map = new window.BMap.Map(element);    // 创建Map实例
 		map.setMapStyle({style:'grayscale'});
@@ -102,7 +102,7 @@ export class HomeView extends Component {
 				</div>
 		    </div>
 		    <div key={'addressData.shanghai'}>{ this.renderInfo(this.addressData.shanghai) }</div>
-	    
+
 		  </div>
 		);
 	}

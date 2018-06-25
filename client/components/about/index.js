@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import QueueAnim from 'rc-queue-anim';
-import PageTitle from '../PageTitle';
+import PageTitle from '../pageTitle';
 import CSS from '../css.scss';
 import { Grid, Row, Col } from 'react-bootstrap';
 
