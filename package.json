@@ -15,6 +15,7 @@
     "deploy": "better-npm-run deploy",
     "deploy:dev": "better-npm-run deploy:dev",
     "deploy:prod": "better-npm-run deploy:prod",
+    "bulidAndDeploy:prod": "better-npm-run deploy:prod && scp -P 60777 -r ./dist root@101.254.101.224:/www/www.digroup.com.cn/uploadTest/",
     "codecov": "cat coverage/*/lcov.info | codecov"
   },
   "betterScripts": {
