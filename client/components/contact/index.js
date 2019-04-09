@@ -21,11 +21,11 @@ export class HomeView extends Component {
 				email: 'boshang@digroup.com.cn'
 			},
 			shanghai: {
-				lng: 121.484205,
-				lat: 31.212242,
+				lng: 121.481363,
+				lat: 31.208074,
 				zoom: 16,
 				title: 'SHANGHAI OFFICE',
-				address: '上海黄浦区蒙自路169号2号楼103单元',
+				address: '上海黄浦区丽园路501号A7幢7403室',
 				email: 'boshang@digroup.com.cn'
 			}
 		};
