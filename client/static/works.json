@@ -1,5 +1,49 @@
 [
   {
+    "url": "aimer1111",
+    "title": "爱慕双11海报",
+    "meta": "品牌规划及传播建议",
+    "brand": "爱慕",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/aimer11-11/2.jpg",
+    "info": {
+      "headImg": "/images/works/aimer11-11/1.jpg",
+      "title": "爱慕双11海报",
+      "content": "天猫双十一节是爱慕比较重要的销售时机，在传播视觉上要能在众多的画面中脱颖而出，是画面创意的重点。",
+      "bigImages": [
+
+      ],
+      "mobileImages": [
+        "/images/works/aimer11-11/2.jpg",
+        "/images/works/aimer11-11/3.jpg",
+        "/images/works/aimer11-11/4.jpg"
+      ],
+      "movies": []
+    }
+  },
+  {
+    "url": "beijinggas",
+    "title": "北京燃气",
+    "meta": "品牌规划及传播建议",
+    "brand": "北京燃气",
+    "logoUrl": "https://d1yvfejcy02lz3.cloudfront.net/wp/wp-content/uploads/2016/11/sunstar.svg",
+    "thumbUrl": "/images/works/beijinggas/thumb.png",
+    "info": {
+      "headImg": "/images/works/beijinggas/b1.jpg",
+      "title": "北京燃气厨电产品品牌规划及传播建议",
+      "content": "2018年北京燃气用户服务公司应市场发展的需要，推出了燃气灶、抽油烟机、燃气热水器、燃气壁挂炉，开创了北京燃气的新商业模式，进入到厨电市场的品牌行列中。<br />在产品研发初期，我们协助客户进行消费者调研，深度了解用户在使用厨电产品的需求，为产品研发提供强力的支持。<br />在研发产品的同时，对于品牌的定位和未来传播的策划已然开始，博尚广告为北京燃气的厨电产品制定了品牌规划，产出传播视觉和媒介建议，形成了一套整合营销的传播方案，将北京燃气厨电产品打造成高性价比的中高端专业厨电品牌。",
+      "bigImages": [
+        "/images/works/beijinggas/b2.jpg",
+        "/images/works/beijinggas/b3.jpg",
+        "/images/works/beijinggas/b5.jpg",
+        "/images/works/beijinggas/b6.jpg"
+      ],
+      "mobileImages": [
+      ],
+      "movies": []
+    }
+  },
+  {
     "url": "aimer",
     "title": "爱慕",
     "meta": "热点事件营销",
@@ -27,7 +71,8 @@
       ],
       "movies": []
     }
-  },{
+  },
+  {
     "url": "qinqin",
     "title": "功夫不负有新人",
     "meta": "品牌内容塑造及新品上市传播",
@@ -54,7 +99,8 @@
       ],
       "movies": []
     }
-  },{
+  },
+  {
     "url": "ofo-hwkc2017",
     "title": "海外开城KV设计",
     "meta": "平面设计",
