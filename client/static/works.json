@@ -209,6 +209,11 @@
         "/images/works/shell/b-4.jpg"
       ],
       "mobileImages": [
+      ],
+      "movies": [
+        {
+          "mp4": "http://res.tco-manchina.com.cn/qiaopailiqin-gangzhu-aodaqiao.mp4"
+        }
       ]
     }
   },
