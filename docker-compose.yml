@@ -1,9 +1,6 @@
-version: "2"
+version: '3'
 services:
   web:
-    build:
-      context: ./
-      dockerfile: Dockerfile
-    container_name: digroup-static
+    build: .
     ports:
-      - "3000:80"
+     - "3060:80"
