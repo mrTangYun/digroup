@@ -41,7 +41,7 @@ export class HomeView extends Component {
     }, 1000 / 2);
   }
 
-  componentDidMount() {
+  componentDidMount () {
     if (window.WORKS_Data) {
       this.Data = window.WORKS_Data;
       this.setState({
@@ -52,16 +52,29 @@ export class HomeView extends Component {
     } else {
       fetch('/works.json')
         .then(response => {
-          return response.text()
+          return response.text();
         }).then(body => {
-          this.Data = JSON.parse(body);
-          window.WORKS_Data = this.Data;
-          this.setState({
-            delayObject: this.Data.map((item, index) => {
-              return (index + 1) / 6;
-            })
+          const localData = JSON.parse(body);
+          fetch('/api/works').then(res => {
+            res.json().then(newData => {
+              this.Data = [...localData, ...newData];
+              window.WORKS_Data = this.Data;
+              this.setState({
+                delayObject: this.Data.map((item, index) => {
+                  return (index + 1) / 6;
+                })
+              });
+            });
+          }).catch(e => {
+            this.Data = localData;
+              window.WORKS_Data = this.Data;
+              this.setState({
+                delayObject: this.Data.map((item, index) => {
+                  return (index + 1) / 6;
+                })
+              });
           });
-        })
+        });
     }
   }
   render () {
