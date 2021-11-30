@@ -67,12 +67,12 @@ export class HomeView extends Component {
             });
           }).catch(e => {
             this.Data = localData;
-              window.WORKS_Data = this.Data;
-              this.setState({
-                delayObject: this.Data.map((item, index) => {
-                  return (index + 1) / 6;
-                })
-              });
+            window.WORKS_Data = this.Data;
+            this.setState({
+              delayObject: this.Data.map((item, index) => {
+                return (index + 1) / 6;
+              })
+            });
           });
         });
     }
