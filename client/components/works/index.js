@@ -56,8 +56,8 @@ export class HomeView extends Component {
         }).then(body => {
           const localData = JSON.parse(body);
           fetch('/api/works').then(res => {
-            res.json().then(newData => {
-              this.Data = [...localData, ...newData];
+            res.json().then(({ works }) => {
+              this.Data = [...localData, ...works];
               window.WORKS_Data = this.Data;
               this.setState({
                 delayObject: this.Data.map((item, index) => {
