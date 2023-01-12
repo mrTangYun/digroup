@@ -119,7 +119,7 @@
   "dependencies": {
     "antd": "^2.13.12",
     "babel-plugin-import": "^1.2.1",
-    "debug": "^2.3.3",
+    "debug": "^2.6.9",
     "express": "^4.16.2",
     "fetch-polyfill": "^0.8.2",
     "file-loader": "^0.9.0",
