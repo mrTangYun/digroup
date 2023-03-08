@@ -1,0 +1,94 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 8
+
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v1
+
+      - name: Build project
+        run: npm run build
+
+      - name: Upload production-ready build files
+        uses: actions/upload-artifact@v2
+        with:
+          name: production-files
+          path: ./dist
+
+  # deploy:
+  #   name: DeployToGithubPage
+  #   needs: build
+  #   runs-on: ubuntu-latest
+  #   if: github.ref == 'refs/heads/master'
+
+  #   steps:
+  #     - name: Download artifact
+  #       uses: actions/download-artifact@v2
+  #       with:
+  #         name: production-files
+  #         path: ./dist
+
+  #     - name: Deploy to GitHub Pages
+  #       uses: peaceiris/actions-gh-pages@v3
+  #       with:
+  #         github_token: ${{ secrets.GITHUB_TOKEN }}
+  #         publish_dir: ./dist
+          
+  deployToServer:
+    name: DeployToServer
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: production-files
+          path: ./dist
+      
+      - name: Deploy to Server
+        uses: AEnterprise/rsync-deploy@v1.0
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }} # 引用配置，SSH私钥
+          ARGS: -avz --delete --exclude='*.pyc' # rsync参数，排除.pyc文件
+          SERVER_PORT: '22' # SSH端口
+          FOLDER: ./dist # 要推送的文件夹，路径相对于代码仓库的根目录
+          SERVER_IP: ${{ secrets.SSH_HOST }} # 引用配置，服务器的host名（IP或者域名domain.com）
+          USERNAME: ${{ secrets.SSH_USERNAME }} # 引用配置，服务器登录名
+          SERVER_DESTINATION: ${{ secrets.DEPLOY_DIR }} # 部署到目标文件夹
+      
+      # - name: Delete old files # 第三步，重启服务
+      #   uses: appleboy/ssh-action@master
+      #   with:
+      #     host: ${{ secrets.SSH_HOST }} # 下面三个配置与上一步类似
+      #     username: ${{ secrets.SSH_USERNAME }}
+      #     key: ${{ secrets.DEPLOY_KEY }}
+      #     # 重启的脚本，根据自身情况做相应改动，一般要做的是migrate数据库以及重启服务器
+      #     script: |
+      #       cd ${{ secrets.repoDir }}
+      #       eval `ssh-agent -s`
+      #       ssh-add /root/.ssh/bitbucket_work
+      #       git checkout master
+      #       git pull
+      #       rm -rf css js
+      #       \cp -r -a ${{ secrets.DEPLOY_DIR_master }}/dist/* ${{ secrets.repoDir }}/
+      #       git add .
+      #       git commit -m '${{ github.event.head_commit.message }}'
+      #       git push
